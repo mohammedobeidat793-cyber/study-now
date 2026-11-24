@@ -1,0 +1,3275 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" style="--c: #d98b2b;" data-theme="light"><head><script data-bard-client-injected="true">(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6IjExNjRiNzdiNDMzZDdhMDAyMWI4NjE4YjhjYTU3ZTMyZGI5MWUxMTMiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNjczMDcwNTc2ODY4MTI3MzE1OSIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2FjNzA1Nzc1NzBiYjMwOTVfU3R1ZHkgTm93Lmh0bWwtNzU2In0sImV4cCI6MTc5NTU0MTAxNSwiaWF0IjoxNzk1NTM3NDE1LCJhbGciOiJSUzI1NiJ9.NaFd02npj2xLr-D0b35bxPBqYqkIcmwHNlZv8d8UcgPLMBE4940oqgqnEhA7SO4C_1gJZVXFTzdbWoyBVAeNdYYYQUFEr5LiJ2Rq_rVaaAzkLZQNpOz6OVfOmWgFrIQ9mX3whfmBNjXs8_AKgDQh-Cl5SOM4OKvQhSX6qglCZbXMcKg5xz1Qpy8ZeGvovVitC7OVwuMbo6RfLbQ0vNzJKa7uitUNd0cILtdk7JUsu4YBBwFpGLYztpbIHC3k0v_0nesozEftL99PfyxzEOL9gwQhpn2HujFFKWPMC3SAWZV-rwnatLVOKPPbB4c_z9tsb2z4xM11JzV55QrwzrCMCQ","c_ac70577570bb3095_Study Now.html-756")</script><script data-bard-client-injected="true">
+  document.addEventListener('input', (event) => {
+    if (event.target && (event.target.isContentEditable || event.target.hasAttribute('contenteditable'))) {
+      const clonedDoc = document.cloneNode(true);
+      const injectedScripts = clonedDoc.querySelectorAll('[data-bard-client-injected="true"]');
+      injectedScripts.forEach(el => el.remove());
+      window.parent.postMessage({
+        type: 'inlineEdit',
+        html: '<!DOCTYPE html>\n' + clonedDoc.documentElement.outerHTML
+      }, '*');
+    }
+  });
+</script><script data-bard-client-injected="true">(function(){'use strict';window.addEventListener("message",a=>{a.data&&a.data.type==="SUPPLEMENTAL_DATA_UPDATE"&&window.dispatchEvent(new CustomEvent("supplementaldataupdate",{detail:a.data.data}))});}).call(this);
+</script><script data-bard-client-injected="true">(function(){'use strict';var k=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d){if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a};function m(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var d=a[b];if(d&&d.Math==Math)return d}throw Error("Cannot find global object");}var q=m(this);
+function r(a,b){if(b)a:{var d=q;a=a.split(".");for(var c=0;c<a.length-1;c++){var e=a[c];if(!(e in d))break a;d=d[e]}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&k(d,a,{configurable:!0,writable:!0,value:b})}}function t(a){function b(c){return a.next(c)}function d(c){return a.throw(c)}return new Promise(function(c,e){function f(g){g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)}f(a.next())})}function u(a){return t(a())}
+r("Object.values",function(a){return a?a:function(b){var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d}});r("Array.prototype.includes",function(a){return a?a:function(b,d){var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++){var f=c[d];if(f===b||Object.is(f,b))return!0}return!1}});/*
+
+ MIT License
+
+ Copyright (c) 2017-2023 W.Y.
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+*/
+function v(a,b){var d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`${b.width}px`);b.height&&(d.height=`${b.height}px`);var c=b.style;c!=null&&Object.keys(c).forEach(e=>{d[e]=c[e]})};var aa=(()=>{var a=0;return()=>{a+=1;return`u${`0000${(Math.random()*1679616<<0).toString(36)}`.slice(-4)}${a}`}})();function w(a){var b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b}let y=null;function z(a={}){return y?y:a.u?y=a.u:y=w(window.getComputedStyle(document.documentElement))}function A(a,b){return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0}
+function B(a,b={}){var d;if(!(d=b.width)){d=A(a,"border-left-width");var c=A(a,"border-right-width");d=a.clientWidth+d+c}(b=b.height)||(b=A(a,"border-top-width"),c=A(a,"border-bottom-width"),b=a.clientHeight+b+c);return{width:d,height:b}}function C(a){return new Promise((b,d)=>{var c=new Image;c.onload=()=>{c.decode().then(()=>{requestAnimationFrame(()=>b(c))})};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a})}
+function ba(a){return u(function*(){return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,${b}`)})}
+function ca(a,b,d){return u(function*(){var c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`${b}`);c.setAttribute("height",`${d}`);c.setAttribute("viewBox",`0 0 ${b} ${d}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return ba(c)})}
+var D=(a,b)=>{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||D(a,b)};function da(a,b){return z(b).map(d=>{var c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`${d}: ${c}${e?" !important":""};`}).join(" ")}
+function E(a,b,d,c){a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none"){var f=aa();try{b.className=`${b.className} ${f}`}catch(h){return}e=document.createElement("style");var g=e.appendChild;d=`.${f}:${d}`;a.cssText?(c=a.getPropertyValue("content"),c=`${a.cssText} content: '${c.replace(/'|"/g,"")}';`):c=da(a,c);g.call(e,document.createTextNode(`${d}{${c}}`));b.appendChild(e)}};function F(a){return a.search(/^(data:)/)!==-1}function G(a,b,d){return u(function*(){var c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "${c.url}" not found`);var e=yield c.blob();return new Promise((f,g)=>{var h=new FileReader;h.onerror=g;h.onloadend=()=>{try{f(d({v:c,result:h.result}))}catch(l){g(l)}};h.readAsDataURL(e)})})}const H={};function ea(a,b,d){var c=a.replace(/\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\//,""));return b?`[${b}]${c}`:c}
+function I(a,b,d){return u(function*(){var c=ea(a,b,d.F);if(H[c]!=null)return H[c];d.B&&(a+=(/\?/.test(a)?"&":"?")+(new Date).getTime());try{let f=yield G(a,d.l,({v:g,result:h})=>{b||(b=g.headers.get("Content-Type")||"");return h.split(/,/)[1]});var e=`data:${b};base64,${f}`}catch(f){e=d.o||""}return H[c]=e})};const J={R:"application/font-woff",S:"application/font-woff",O:"application/font-truetype",C:"application/vnd.ms-fontobject",J:"image/png",H:"image/jpeg",G:"image/jpeg",D:"image/gif",N:"image/tiff",M:"image/svg+xml",P:"image/webp"};function K(a){return(a=/\.([^./]*?)$/g.exec(a))?a[1]:""};function fa(a){return u(function*(){var b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):C(b)})}function ha(a,b){return u(function*(){if(a.currentSrc){var d=document.createElement("canvas");let c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return C(d)}d=a.poster;d=yield I(d,J[K(d).toLowerCase()]||"",b);return C(d)})}
+function ia(a,b){return u(function*(){try{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield L(a.contentDocument.body,b,!0)}catch(d){}return a.cloneNode(!1)})}function ja(a,b){return u(function*(){return D(a,HTMLCanvasElement)?fa(a):D(a,HTMLVideoElement)?ha(a,b):D(a,HTMLIFrameElement)?ia(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")})}
+function ka(a,b,d){return u(function*(){if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;var c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else{let e;if(D(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)}}if(c.length===0||D(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>L(f,d)).then(g=>{g&&b.appendChild(g)}),Promise.resolve());
+return b})}function la(a,b,d){var c=b.style;if(c){var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):z(d).forEach(f=>{var g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`${Math.floor(parseFloat(g.substring(0,g.length-2)))-.1}px`);D(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path(${b.getAttribute("d")})`);c.setProperty(f,g,e.getPropertyPriority(f))})}}
+function ma(a,b){D(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")}
+function na(a,b){return u(function*(){var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c={};for(var e=0;e<d.length;e++){var f=d[e].getAttribute("xlink:href");if(f){let g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield L(g,b,!0))}}d=Object.values(c);if(d.length){c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)}return a})}
+function L(a,b,d){return u(function*(){return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ja(c,b)).then(c=>ka(a,c,b)).then(c=>{D(c,Element)&&(la(a,c,b),E(a,c,":before",b),E(a,c,":after",b),D(a,HTMLTextAreaElement)&&(c.textContent=a.value),D(a,HTMLInputElement)&&c.setAttribute("value",a.value),ma(a,c));return c}).then(c=>na(c,b)):null})};const M=/url\((['"]?)([^'"]+?)\1\)/g,oa=/url\([^)]+\)\s*format\((["']?)([^"']+)\1\)/g,pa=/src:\s*(?:url\([^)]+\)\s*format\([^)]+\)[,;]\s*)+/g;function qa(a){var b=[];a.replace(M,(d,c,e)=>{b.push(e);return d});return b.filter(d=>!F(d))}
+function ra(a,b,d,c){return u(function*(){try{let e=d?(new URL(b,d||void 0)).toString():b,f;f=yield I(e,J[K(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\(['"]?)(${b.replace(/([.*+?^${}()|\[\]\/\\])/g,"\\$1")})(['"]?\\))`,"g"),`$1${f}$3`)}catch(e){}return a})}function sa(a,{K:b}){return b?a.replace(pa,d=>{for(;;){let [c,,e]=oa.exec(d)||[];if(!e)return"";if(e===b)return`src: ${c};`}}):a}
+function N(a,b,d){return u(function*(){if(a.search(M)===-1)return a;var c=sa(a,d);return qa(c).reduce((e,f)=>e.then(g=>ra(g,f,b,d)),Promise.resolve(c))})};function O(a,b,d){return u(function*(){var c,e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield N(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1})}function ta(a,b){return u(function*(){(yield O("background",a,b))||(yield O("background-image",a,b));(yield O("mask",a,b))||(yield O("-webkit-mask",a,b))||(yield O("mask-image",a,b))||(yield O("-webkit-mask-image",a,b))})}
+function ua(a,b){return u(function*(){var d=D(a,HTMLImageElement);if(d&&!F(a.src)||D(a,SVGImageElement)&&!F(a.href.baseVal)){var c=d?a.src:a.href.baseVal,e=yield I(c,J[K(c).toLowerCase()]||"",b);yield new Promise((f,g)=>{a.onload=f;a.onerror=b.h?(...h)=>{try{f(b.h(...h))}catch(l){g(l)}}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e})}})}
+function va(a,b){return u(function*(){var d=w(a.childNodes).map(c=>P(c,b));yield Promise.all(d).then(()=>a)})}function P(a,b){return u(function*(){D(a,Element)&&(yield ta(a,b),yield ua(a,b),yield va(a,b))})};const Q={};function R(a){return u(function*(){var b=Q[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b={url:a,cssText:b};return Q[a]=b})}function S(a,b){return u(function*(){var d=a.cssText,c=/url\(["']?([^"')]+)["']?\)/g,e=(d.match(/url\([^)]+\)/g)||[]).map(f=>u(function*(){var g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return G(g,b.l,({result:h})=>{d=d.replace(f,`url(${h})`);return[f,h]})}));return Promise.all(e).then(()=>d)})}
+function T(a){if(a==null)return[];var b=[];a=a.replace(/(\/\*[\s\S]*?\*\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\s\\S]*?){([\\s\\S]*?}\\s*?)})","gi");;){var c=d.exec(a);if(c===null)break;b.push(c[0])}a=a.replace(d,"");d=/@import[\s\S]*?url\([^)]*\)[\s\S]*?;/gi;for(c=RegExp("((\\s*?(?:\\/\\*[\\s\\S]*?\\*\\/)?\\s*?@media[\\s\\S]*?){([\\s\\S]*?)}\\s*?})|(([\\s\\S]*?){([\\s\\S]*?)})","gi");;){let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=
+d.lastIndex;b.push(e[0])}return b}
+function wa(a,b){return u(function*(){var d=[],c=[];a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach((f,g)=>{if(f.type===CSSRule.IMPORT_RULE){let h=g+1;f=R(f.href).then(l=>S(l,b)).then(l=>T(l).forEach(p=>{try{e.insertRule(p,p.startsWith("@import")?h+=1:e.cssRules.length)}catch(x){}})).catch(()=>{});c.push(f)}})}catch(f){let g=a.find(h=>h.href==null)||document.styleSheets[0];e.href!=null&&c.push(R(e.href).then(h=>S(h,b)).then(h=>T(h).forEach(l=>{g.insertRule(l,g.cssRules.length)})).catch(()=>
+{}))}});return Promise.all(c).then(()=>{a.forEach(e=>{if("cssRules"in e)try{w(e.cssRules||[]).forEach(f=>{d.push(f)})}catch(f){}});return d})})}function xa(a){return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(M)!==-1)}function ya(a,b){return u(function*(){if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=yield wa(w(a.ownerDocument.styleSheets),b);return xa(d)})}
+function za(a){function b(c){(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>{d.add(e.trim().replace(/["']/g,""))});Array.from(c.children).forEach(e=>{e instanceof HTMLElement&&b(e)})}var d=new Set;b(a);return d}function Aa(a,b){return u(function*(){var d=yield ya(a,b),c=za(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>N(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\n")})}
+function Ba(a,b){return u(function*(){var d=b.m!=null?b.m:b.A?null:yield Aa(a,b);if(d){let c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)}})};function Ca(a,b={}){return u(function*(){var {width:d,height:c}=B(a,b),e=yield L(a,b,!0);yield Ba(e,b);yield P(e,b);v(e,b);return yield ca(e,d,c)})}
+function Da(a,b={}){return u(function*(){var {width:d,height:c}=B(a,b),e=yield Ca(a,b);e=yield C(e);var f=document.createElement("canvas"),g=f.getContext("2d"),h=b.I||window.devicePixelRatio||1,l=b.j||d,p=b.i||c;f.width=l*h;f.height=p*h;!b.L&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384));
+f.style.width=`${l}`;f.style.height=`${p}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f})}function Ea(a,b={}){return u(function*(){return(yield Da(a,b)).toDataURL()})};const Fa=["gemini.google.com","corp.google.com","proxy.googlers.com"];function V(a){a=Number(a.replace(/px$/,""));return Number.isFinite(a)?a:0}function W(){return document.body.querySelectorAll('[class*="animate"]').length>0}function X(a,b){var d=document.createElement("canvas");d.width=a;d.height=b;return d.toDataURL("image/png")}const Y=X(1,1);
+function Z(a,b){return u(function*(){var d=Math.max(b?b.width:a.offsetWidth,1),c=Math.max(b?b.height:a.offsetHeight,1),e=HTMLCanvasElement.prototype.toDataURL;b&&(HTMLCanvasElement.prototype.toDataURL=function(f,g){var h;if(h=this.isConnected&&a.contains(this)){{let n=this.getBoundingClientRect();if(n.width===0||n.height===0)h=!1;else if(window.getComputedStyle(this).position==="fixed")h=n.bottom>0&&n.top<b.height&&n.right>0&&n.left<b.width;else{h=a.getBoundingClientRect();var l=n.top-h.top,p=n.left-
+h.left,x=n.right-h.left;h=n.bottom-h.top>b.scrollTop&&l<b.scrollTop+b.height&&x>b.scrollLeft&&p<b.scrollLeft+b.width}}h=!h}return h?"data:,":e.call(this,f,g)});try{let f=window.getComputedStyle(a),g=b?`${V(f.marginTop)-b.scrollTop}px`:void 0,h=b?`${V(f.marginLeft)-b.scrollLeft}px`:void 0,l=`${Math.max(a.offsetWidth,d)}px`,p,x=`${Math.max(a.offsetHeight,c+((p=b==null?void 0:b.scrollTop)!=null?p:0))}px`;return yield Ea(a,Object.assign({},{width:d,height:c,j:d,i:c},b?{style:{width:l,height:x,marginTop:g,
+marginLeft:h,marginBlockStart:g,marginInlineStart:h}}:{},{A:!0,filter:n=>{if(n.tagName==="IMG"){let U=n.getAttribute("src");if(!U||U.trim()===""||n.style.display==="none")return!1}return!0},o:Y,h:()=>Y}))}catch(f){return X(d,c)}finally{HTMLCanvasElement.prototype.toDataURL=e}})}
+function Ga(){return u(function*(){var a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))});d.style.width=`${a}px`;d.style.height=`${b}px`;return d})}
+function Ha(a){return u(function*(){var b={width:window.innerWidth||document.documentElement.clientWidth||document.body.offsetWidth,height:window.innerHeight||document.documentElement.clientHeight||document.body.offsetHeight,scrollTop:window.scrollY||document.documentElement.scrollTop||document.body.scrollTop||0,scrollLeft:window.scrollX||document.documentElement.scrollLeft||document.body.scrollLeft||0},d=document.body;if(W()){let c=yield Ga();d=c;document.body.appendChild(c)}b=yield Z(d,b);W()&&
+document.body.removeChild(d);window.parent.postMessage({type:"SEND_SCREENSHOT",image:b,topOffset:0},a.origin)})}function Ia(a){return u(function*(){var b={type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0};window.parent.postMessage(b,a.origin)})}window.addEventListener("message",a=>u(function*(){if(Fa.some(d=>a.origin.includes(d))){var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ha(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ia(a)))}}));
+})();</script><script data-bard-client-injected="true">(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script data-bard-client-injected="true">
+let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function requestMediaPermissions(constraints) {
+    const mediaPromiseId = nextMediaPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingMediaResolvers[mediaPromiseId] = (granted) => {
+        delete pendingMediaResolvers[mediaPromiseId];
+        resolve(granted);
+      };
+    });
+
+    window.parent.postMessage({
+      type: 'requestMediaPermission',
+      constraints: constraints,
+      promiseId: mediaPromiseId,
+    }, '*');
+
+    return promise;
+  }
+
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          return requestMediaPermissions(constraints).then((granted) => {
+            if (granted) {
+              if (originalGetUserMedia) {
+                return originalGetUserMedia(constraints);
+              } else {
+                throw new Error("Original getUserMedia not available.");
+              }
+            } else {
+              throw new DOMException('Permission denied', 'NotAllowedError');
+            }
+          });
+        },
+        writable: false,
+        configurable: false
+      });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  function interceptSpeechRecognition() {
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+      return;
+    }
+
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const SpeechRecognitionWrapper = function(...args) {
+      const recognizer = new OriginalSpeechRecognition(...args);
+      const originalStart = recognizer.start.bind(recognizer);
+
+      recognizer.start = function() {
+        requestMediaPermissions({ audio: true }).then(granted => {
+          if (granted) {
+            originalStart();
+          } else {
+            const errorEvent = new SpeechRecognitionErrorEvent('error');
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.
+            recognizer.dispatchEvent(errorEvent);
+          }
+        });
+      };
+
+      return recognizer;
+    };
+
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;
+
+    if (window.SpeechRecognition) {
+      window.SpeechRecognition = SpeechRecognitionWrapper;
+    }
+    if (window.webkitSpeechRecognition) {
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;
+    }
+  }
+
+  interceptSpeechRecognition();
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script ws-interception-config="{&quot;parentOrigin&quot;:&quot;https://gemini.google.com&quot;,&quot;proxiedDomains&quot;:[]}" data-bard-client-injected="true">(function(){'use strict';var u=typeof Object.defineProperties=="function"?Object.defineProperty:function(b,d,e){if(b==Array.prototype||b==Object.prototype)return b;b[d]=e.value;return b};function v(b){b=["object"==typeof globalThis&&globalThis,b,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var d=0;d<b.length;++d){var e=b[d];if(e&&e.Math==Math)return e}throw Error("Cannot find global object");}var w=v(this);
+function y(b,d){if(d)a:{var e=w;b=b.split(".");for(var h=0;h<b.length-1;h++){var k=b[h];if(!(k in e))break a;e=e[k]}b=b[b.length-1];h=e[b];d=d(h);d!=h&&d!=null&&u(e,b,{configurable:!0,writable:!0,value:d})}}function z(b){function d(h){return b.next(h)}function e(h){return b.throw(h)}return new Promise(function(h,k){function m(n){n.done?h(n.value):Promise.resolve(n.value).then(d,e).then(m,k)}m(b.next())})}y("globalThis",function(b){return b||w});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+function A(b,d){function e(){}e.prototype=d.prototype;b.i=d.prototype;b.prototype=new e;b.prototype.constructor=b;b.h=function(h,k,m){for(var n=Array(arguments.length-2),p=2;p<arguments.length;p++)n[p-2]=arguments[p];return d.prototype[k].apply(h,n)}};function B(b,d,e="*"){function h(a){if(typeof a==="string")return F.encode(a).buffer;if(a instanceof ArrayBuffer)return a.slice(0);if(ArrayBuffer.isView(a))return a.buffer.slice(a.byteOffset,a.byteOffset+a.byteLength);throw Error("Invalid data type");}function k(a){a=h(a);var f={type:"send",data:new Uint8Array(a)},g;(g=r)==null||g.postMessage(f,[a])}function m(){if(!r)throw Error("Data port not captured yet.");r.onmessage=a=>{if(a.data.type==="message"){a=new MessageEvent("message",{data:G.decode(a.data.data)});
+let f;(f=c.onmessage)==null||f.call(c,a);c.dispatchEvent(a)}}}function n(){if(!t)throw Error("Control port not captured yet.");t.onmessage=a=>{switch(a.data.type){case "open":l=1;var f=new Event("open"),g;(g=c.onopen)==null||g.call(c,f);c.dispatchEvent(f);q.forEach(H=>{k(H)});q=[];break;case "close":g=a.data;l=3;g=new CloseEvent("close",{code:g.code,reason:g.reason,wasClean:g.wasClean});(f=c.onclose)==null||f.call(c,g);c.dispatchEvent(g);break;case "error":l=3;f=new Event("error");let x;(x=c.onerror)==
+null||x.call(c,f);c.dispatchEvent(f)}}}function p(a){return z(function*(){var f=new MessageChannel;t=f.port1;var g=new MessageChannel;r=g.port1;n();m();window.parent.postMessage({type:"websocket_open",portOrdering:["control","data"],url:b,protocols:a||[],connectionId:I},e,[f.port2,g.port2])}())}var c=Reflect.construct(EventTarget,[],new.target);c.CONNECTING=0;c.OPEN=1;c.CLOSING=2;c.CLOSED=3;c.url=b;c.binaryType="arraybuffer";c.protocol="";c.extensions="";var l=0,t=null,r=null,q=[],F=new TextEncoder,
+G=new TextDecoder;c.onopen=null;c.onmessage=null;c.onclose=null;c.onerror=null;Object.defineProperty(c,"readyState",{get:()=>l,enumerable:!0,configurable:!0});Object.defineProperty(c,"bufferedAmount",{get:()=>{var a=0;q.forEach(f=>{a+=typeof f==="string"?f.length:f.byteLength});return a},enumerable:!0,configurable:!0});var I=function(){var a;return((a=globalThis.crypto)==null?0:a.randomUUID)?globalThis.crypto.randomUUID():"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,f=>{var g=Math.random()*
+16|0;return(f==="x"?g:g&3|8).toString(16)})}();c.send=a=>{if(l===1)a instanceof Blob?a.arrayBuffer().then(f=>{k(f)}):k(a);else if(l===0)if(typeof a==="string")q.push(a);else if(a instanceof ArrayBuffer||ArrayBuffer.isView(a))q.push(h(a));else throw Error("Sending Blob is not supported before the connection is open.");else console.debug("WebSocket send called in CLOSING or CLOSED state; ignored.")};c.close=(a=1E3,f="")=>{if(l!==2&&l!==3){l=2;a={type:"close",code:a,reason:f,wasClean:a===1E3};var g;
+(g=t)==null||g.postMessage(a)}};Promise.resolve().then(()=>p(d));return c}A(B,EventTarget);var C=document.currentScript,D=C==null?void 0:C.getAttribute("ws-interception-config");if(!D)throw Error("WebSocket Interceptor: Missing ws-interception-config attribute in the script tag.");var E=JSON.parse(D);if(!E.parentOrigin||typeof E.parentOrigin!=="string")throw Error("WebSocket Interceptor: Invalid parentOrigin in ws-interception-config");
+(function(b){var d=Object.getOwnPropertyDescriptor(window,"WebSocket");if(!d||d.writable||d.configurable)d=Object.assign(function(e,h){try{let k=(new URL(e)).hostname;if(b.proxiedDomains.some(m=>k===m||k.endsWith(`.${m}`)))return new B(e,h,b.parentOrigin)}catch(k){throw window.parent.postMessage({type:"websocket_blocked",url:e,reason:"blocked_invalid_url"},b.parentOrigin),new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");}window.parent.postMessage({type:"websocket_blocked",
+url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMException(`WebSocket connection to '${e}' is not allowed in Canvas.`,"SecurityError");},{CONNECTING:0,OPEN:1,CLOSING:2,CLOSED:3}),Object.defineProperty(window,"WebSocket",{value:d,writable:!1,configurable:!1})})({proxiedDomains:E.proxiedDomains||[],parentOrigin:E.parentOrigin});}).call(this);
+</script><script data-bard-client-injected="true">((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedGenerateImageModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+  modelInformation.deprecatedImageTransformModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-3-flash-preview","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-3.1-flash-image","imageTransformModelName":"gemini-3-pro-image","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20","gemini-2.5-flash-preview-09-2025"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"],"deprecatedGenerateImageModelNames":["gemini-2.5-flash-image-preview","gemini-2.5-flash-image","gemini-3.1-flash-image-preview"],"deprecatedImageTransformModelNames":["gemini-3-pro-image-preview-11-2025"]})</script><script data-bard-client-injected="true">(function() {
+  const OVERLAY_SELECTOR =
+    'dialog[open], [role="dialog"], [role="alertdialog"], [role="menu"], [role="listbox"], [role="combobox"]';
+
+  function isVisibleOverlay(element) {
+    if (element.closest('[hidden], [aria-hidden="true"], [inert]')) {
+      return false;
+    }
+    if (window.getComputedStyle(element).visibility === 'hidden') {
+      return false;
+    }
+    for (let cur = element; cur; cur = cur.parentElement) {
+      if (window.getComputedStyle(cur).display === 'none') {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  function hasOpenOverlay() {
+    const candidates = document.querySelectorAll(OVERLAY_SELECTOR);
+    for (let i = 0; i < candidates.length; i++) {
+      if (isVisibleOverlay(candidates[i])) {
+        return true;
+      }
+    }
+    try {
+      if (document.querySelector('[popover]:popover-open')) {
+        return true;
+      }
+    } catch (e) {
+      // Ignore engines that do not support :popover-open.
+    }
+    return false;
+  }
+
+  function isNonEmptySearchInput(target) {
+    return (
+      Boolean(target) &&
+      target.tagName === 'INPUT' &&
+      typeof target.type === 'string' &&
+      target.type.toLowerCase() === 'search' &&
+      typeof target.value === 'string' &&
+      target.value.length > 0
+    );
+  }
+
+  function shouldIgnoreEscape(event) {
+    return (
+      event.key !== 'Escape' ||
+      event.altKey ||
+      event.ctrlKey ||
+      event.metaKey ||
+      event.shiftKey ||
+      event.isComposing ||
+      event.repeat ||
+      event.keyCode === 229 ||
+      isNonEmptySearchInput(event.target)
+    );
+  }
+
+  let shouldIgnoreCaptureState = false;
+
+  window.addEventListener(
+    'keydown',
+    function(event) {
+      if (event.key === 'Escape') {
+        shouldIgnoreCaptureState =
+          hasOpenOverlay() || isNonEmptySearchInput(event.target);
+      }
+    },
+    {capture: true},
+  );
+
+  window.addEventListener('keydown', function(event) {
+    if (
+      shouldIgnoreEscape(event) ||
+      event.defaultPrevented ||
+      shouldIgnoreCaptureState
+    ) {
+      return;
+    }
+    const wasBlockedOnCapture = shouldIgnoreCaptureState;
+    queueMicrotask(function() {
+      if (event.defaultPrevented || wasBlockedOnCapture) {
+        return;
+      }
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({'type': 'escapeKey'}, '*');
+      }
+    });
+  });
+})();</script><script data-bard-client-injected="true">(function() {
+  function normalizeSlug(str) {
+    try {
+      return str
+        .trim()
+        .toLowerCase()
+        .replace(/[^p{L}p{N}s_-]/gu, '')
+        .replace(/s+/g, '-');
+    } catch (e) {
+      return str
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9s_-]/g, '')
+        .replace(/s+/g, '-');
+    }
+  }
+
+  function findTargetElement(hash) {
+    if (!hash || hash === '#') {
+      return null;
+    }
+    const rawId = hash.startsWith('#') ? hash.slice(1) : hash;
+    let decodedId = rawId;
+    try {
+      decodedId = decodeURIComponent(rawId);
+    } catch (e) {
+      // Ignore URI malformed errors.
+    }
+
+    // 1. Direct ID match (raw and decoded).
+    let target = document.getElementById(rawId) || document.getElementById(decodedId);
+    if (target) {
+      return target;
+    }
+
+    // 2. Name attribute match (<a name="...">).
+    try {
+      if (typeof CSS !== 'undefined' && CSS.escape) {
+        target =
+          document.querySelector('[name="' + CSS.escape(rawId) + '"]') ||
+          document.querySelector('[name="' + CSS.escape(decodedId) + '"]');
+      } else {
+        const namedElements = document.getElementsByName(rawId);
+        if (namedElements && namedElements.length > 0) {
+          return namedElements[0];
+        }
+      }
+    } catch (e) {
+      // Ignore querySelector syntax errors.
+    }
+    if (target) {
+      return target;
+    }
+
+    // 3. Match heading text by slug (for Markdown TOCs where headings lack explicit IDs).
+    const targetSlug = normalizeSlug(decodedId);
+    if (targetSlug) {
+      for (const heading of document.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
+        if (normalizeSlug(heading.textContent || '') === targetSlug) {
+          return heading;
+        }
+      }
+    }
+
+    return null;
+  }
+
+  document.addEventListener('click', function(event) {
+    const target = event.target;
+    const anchor = target && typeof target.closest === 'function' ? target.closest('a') : null;
+    if (!anchor) {
+      return;
+    }
+
+    const href = anchor.getAttribute('href');
+    if (
+      !href ||
+      href.trim().toLowerCase().startsWith('javascript:') ||
+      anchor.hasAttribute('download')
+    ) {
+      return;
+    }
+
+    // Check if the link is an in-page hash / anchor link.
+    if (href.startsWith('#')) {
+      event.preventDefault();
+      const targetElement = findTargetElement(href);
+      if (targetElement) {
+        targetElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+      }
+      return;
+    }
+
+    // Check if the URL has the same origin/pathname but with a hash.
+    try {
+      const url = new URL(anchor.href, window.location.href);
+      if (
+        url.hash &&
+        url.origin === window.location.origin &&
+        url.pathname === window.location.pathname
+      ) {
+        event.preventDefault();
+        const targetElement = findTargetElement(url.hash);
+        if (targetElement) {
+          targetElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+        return;
+      }
+    } catch (e) {
+      // Fall through if URL parsing fails.
+    }
+
+    // For all external or full navigation links, prevent iframe-level navigation
+    // (which breaks in AGSA WebView or sandboxed iframes) and ensure they open
+    // safely in a new tab/window.
+    if (anchor.target !== '_blank') {
+      event.preventDefault();
+      window.open(anchor.href, '_blank', 'noopener,noreferrer');
+    }
+  }, {capture: true});
+})();</script><script data-bard-client-injected="true">(function(){'use strict';function a(){window.parent.postMessage({type:"interaction"},"*")}window.addEventListener("click",a,{capture:!0,passive:!0});window.addEventListener("touchstart",a,{capture:!0,passive:!0});window.addEventListener("keydown",a,{capture:!0,passive:!0});}).call(this);
+</script><script data-bard-client-injected="true">(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Study Now</title>
+
+  <!-- وسوم SEO الرسمية للموقع -->
+  <meta name="description" content="تطبيق Study Now العربي لتنظيم الدراسة، ربط الحصص المطلوبة على المنصات التعليمية، إنشاء جدول دراسي مخصص، مؤقت بومودورو للتركيز، ومساعد ذكي للطلاب.">
+  <meta name="keywords" content="Study Now, تنظيم الدراسة, مؤقت التركيز, المنصات التعليمية, درسك, جو أكاديمي, وتد, جدول دراسي, توجيهي, حادي عشر, مساعد دراسي ذكي">
+  <meta name="author" content="Study Now Official">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#6c4cf1">
+  <link rel="canonical" href="https://studynow-official.example.com/">
+
+  <!-- Open Graph لمشاركة الرابط رسمياً -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:site_name" content="Study Now">
+  <meta property="og:title" content="Study Now — نظّم دراستك وحصص المنصات التعليمية بذكاء">
+  <meta property="og:description" content="تابع حصصك المطلوبة من المنصات التعليمية، ابنِ جدولك الدراسي الخاص، واستخدم مؤقت التركيز والمساعد الذكي.">
+
+  <!-- بيانات منظمة Schema.org لتعريف التطبيق الرسمي لمحركات البحث -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Study Now",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web",
+    "inLanguage": "ar",
+    "description": "تطبيق تعليمي عربي لإدارة جلسات الدراسة، ربط الحصص المطلوبة بالمنصات التعليمية، وبناء الجداول الدراسية بمساعدة الذكاء الاصطناعي."
+  }
+  </script>
+
+  <style>
+    :root {
+      box-sizing: border-box;
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+      --bg: #f3f1fb;
+      --card: #ffffff;
+      --tx: #1e1b3a;
+      --mut: #6c6890;
+      --pri: #6c4cf1;
+      --pri2: #8b6ff7;
+      --line: #e4e0f5;
+      --ok: #22a06b;
+      --warn: #d98b2b;
+      --err: #e0556b;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        color-scheme: dark;
+        --bg: #14122b;
+        --card: #1f1c3d;
+        --tx: #f1efff;
+        --mut: #a29fc9;
+        --line: #322f5c;
+        --pri: #8b6ff7;
+        --pri2: #a58cff;
+      }
+    }
+
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #14122b;
+      --card: #1f1c3d;
+      --tx: #f1efff;
+      --mut: #a29fc9;
+      --line: #322f5c;
+      --pri: #8b6ff7;
+      --pri2: #a58cff;
+    }
+
+    html {
+      scroll-padding-top: env(safe-area-inset-top, 0px);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--tx);
+      font-family: "Tajawal", "Segoe UI", Tahoma, Arial, sans-serif;
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 14px 14px 56px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 4px 0 12px;
+    }
+
+    .logo {
+      font-weight: 800;
+      font-size: 23px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .logo i {
+      font-style: normal;
+      background: linear-gradient(135deg, var(--pri), var(--pri2));
+      color: #fff;
+      border-radius: 12px;
+      padding: 4px 10px;
+      font-size: 17px;
+    }
+
+    .badge-official {
+      font-size: 11px;
+      font-weight: 800;
+      background: color-mix(in srgb, var(--ok) 15%, transparent);
+      color: var(--ok);
+      border: 1px solid color-mix(in srgb, var(--ok) 35%, transparent);
+      padding: 3px 8px;
+      border-radius: 999px;
+    }
+
+    .head-actions {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .tabs {
+      display: flex;
+      background: var(--card);
+      border-radius: 16px;
+      padding: 5px;
+      gap: 4px;
+      margin-bottom: 14px;
+      border: 1px solid var(--line);
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .tabs::-webkit-scrollbar {
+      display: none;
+    }
+
+    .tabs button {
+      flex: 1 0 auto;
+      min-width: 112px;
+      border: 0;
+      background: none;
+      color: var(--mut);
+      font: inherit;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 10px 8px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.2s;
+      white-space: nowrap;
+    }
+
+    .tabs button.on {
+      background: linear-gradient(135deg, var(--pri), var(--pri2));
+      color: #fff;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+
+    h3 {
+      margin: 0 0 12px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .subs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    @media (min-width: 540px) {
+      .subs {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+    }
+
+    .sub {
+      border: 2px solid var(--line);
+      background: none;
+      color: var(--tx);
+      font: inherit;
+      border-radius: 16px;
+      padding: 12px 8px;
+      cursor: pointer;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      transition: 0.15s;
+    }
+
+    .sub span {
+      font-size: 24px;
+    }
+
+    .sub.on {
+      border-color: var(--c);
+      background: color-mix(in srgb, var(--c) 14%, transparent);
+    }
+
+    .ring {
+      position: relative;
+      width: 230px;
+      height: 230px;
+      margin: 6px auto 14px;
+    }
+
+    .ring svg {
+      transform: rotate(-90deg);
+      width: 100%;
+      height: 100%;
+    }
+
+    .ring circle {
+      fill: none;
+      stroke-width: 12;
+    }
+
+    .ring .bg {
+      stroke: var(--line);
+    }
+
+    .ring .fg {
+      stroke: var(--c, var(--pri));
+      stroke-linecap: round;
+      transition: stroke-dashoffset 0.5s linear;
+    }
+
+    .time {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .time b {
+      font-size: 50px;
+      font-variant-numeric: tabular-nums;
+      direction: ltr;
+    }
+
+    .time small {
+      color: var(--mut);
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .ctrl {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      border: 0;
+      font: inherit;
+      font-weight: 800;
+      border-radius: 14px;
+      padding: 12px 20px;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--pri), var(--pri2));
+      color: #fff;
+      font-size: 15px;
+      transition: 0.15s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .btn:hover {
+      filter: brightness(1.05);
+    }
+
+    .btn.sm {
+      padding: 8px 12px;
+      font-size: 13px;
+      border-radius: 11px;
+    }
+
+    .btn.g {
+      background: var(--bg);
+      color: var(--tx);
+      border: 1px solid var(--line);
+    }
+
+    .btn.ok {
+      background: var(--ok);
+      color: #fff;
+    }
+
+    .btn.warn {
+      background: color-mix(in srgb, var(--err) 15%, transparent);
+      color: var(--err);
+      border: 1px solid color-mix(in srgb, var(--err) 30%, transparent);
+    }
+
+    .set {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .st {
+      background: var(--bg);
+      border-radius: 16px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .st label {
+      display: block;
+      color: var(--mut);
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .st div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .st button {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--tx);
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .st b {
+      min-width: 62px;
+      font-size: 17px;
+    }
+
+    .note {
+      color: var(--mut);
+      font-size: 12.5px;
+      text-align: center;
+      margin-top: 10px;
+      line-height: 1.7;
+    }
+
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .grid2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    @media (min-width: 560px) {
+      .grid2 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .kpi {
+      background: var(--bg);
+      border-radius: 16px;
+      padding: 12px 8px;
+      text-align: center;
+    }
+
+    .kpi b {
+      display: block;
+      font-size: 20px;
+    }
+
+    .kpi span {
+      font-size: 12px;
+      color: var(--mut);
+    }
+
+    .bars {
+      display: flex;
+      align-items: flex-end;
+      gap: 8px;
+      height: 150px;
+      direction: rtl;
+    }
+
+    .bar {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      height: 100%;
+      gap: 4px;
+      font-size: 11px;
+      color: var(--mut);
+    }
+
+    .bar div {
+      width: 100%;
+      border-radius: 8px 8px 4px 4px;
+      background: linear-gradient(var(--pri2), var(--pri));
+      min-height: 4px;
+    }
+
+    .bar.today span {
+      color: var(--pri);
+      font-weight: 800;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 10px 0;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .row .t {
+      flex: 1;
+      height: 10px;
+      background: var(--bg);
+      border-radius: 9px;
+      overflow: hidden;
+    }
+
+    .row .t i {
+      display: block;
+      height: 100%;
+      border-radius: 9px;
+    }
+
+    .row em {
+      font-style: normal;
+      color: var(--mut);
+      font-size: 13px;
+      min-width: 64px;
+      text-align: left;
+    }
+
+    .hide {
+      display: none !important;
+    }
+
+    .ob {
+      position: fixed;
+      inset: 0;
+      z-index: 60;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .ob .box {
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    .ob h2 {
+      font-size: 24px;
+      margin: 0 0 18px;
+    }
+
+    .ob .b {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .ob .btn {
+      padding: 16px;
+      font-size: 17px;
+    }
+
+    input, select, textarea {
+      font: inherit;
+      background: var(--bg);
+      color: var(--tx);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      width: 100%;
+    }
+
+    input.center-code {
+      text-align: center;
+      direction: ltr;
+      text-transform: uppercase;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    @media (min-width: 560px) {
+      .form-grid.cols-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+      .form-grid.cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    .field label {
+      display: block;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--mut);
+      margin-bottom: 5px;
+    }
+
+    .code {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: 6px;
+      text-align: center;
+      direction: ltr;
+      color: var(--pri);
+      margin: 6px 0 12px;
+    }
+
+    .addrow {
+      display: flex;
+      gap: 8px;
+    }
+
+    .fc {
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+      margin-bottom: 12px;
+    }
+
+    .fh {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .fh small {
+      color: var(--mut);
+    }
+
+    .acct {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+    }
+
+    .acct .who {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .acct .who b {
+      display: block;
+      font-size: 14.5px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .acct .who small {
+      color: var(--mut);
+      font-size: 12px;
+    }
+
+    .dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--mut);
+      margin-inline-end: 6px;
+    }
+
+    .dot.on {
+      background: var(--ok);
+    }
+
+    .steps {
+      text-align: right;
+      margin: 10px 0 0;
+      padding-inline-start: 20px;
+      line-height: 1.85;
+      font-size: 13.5px;
+      color: var(--mut);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      color: var(--tx);
+    }
+
+    .prog-wrap {
+      height: 10px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      overflow: hidden;
+      margin: 8px 0;
+    }
+
+    .prog-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--pri), var(--ok));
+      border-radius: 999px;
+      transition: width 0.3s ease;
+    }
+
+    .lesson-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .lesson-meta {
+      flex: 1;
+      min-width: 180px;
+    }
+
+    .lesson-meta b {
+      display: block;
+      font-size: 14px;
+    }
+
+    .lesson-meta small {
+      color: var(--mut);
+      font-size: 12px;
+    }
+
+    .lesson-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .chat-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-height: 360px;
+      overflow-y: auto;
+      padding: 12px;
+      border-radius: 16px;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      margin-bottom: 10px;
+    }
+
+    .msg {
+      padding: 11px 14px;
+      border-radius: 16px;
+      max-width: 88%;
+      font-size: 13.5px;
+      white-space: pre-line;
+    }
+
+    .msg.user {
+      align-self: flex-start;
+      background: linear-gradient(135deg, var(--pri), var(--pri2));
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .msg.ai {
+      align-self: flex-end;
+      background: var(--card);
+      border: 1px solid var(--line);
+      color: var(--tx);
+    }
+
+    .chips {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      background: var(--bg);
+      color: var(--tx);
+      font: inherit;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 7px 11px;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+
+    .chip:hover {
+      border-color: var(--pri);
+      color: var(--pri);
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--pri);
+      outline-offset: 2px;
+    }
+
+    #toast {
+      position: fixed;
+      bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--tx);
+      color: var(--bg);
+      padding: 11px 18px;
+      border-radius: 14px;
+      font-weight: 700;
+      font-size: 13.5px;
+      opacity: 0;
+      transition: 0.25s;
+      pointer-events: none;
+      max-width: 92%;
+      text-align: center;
+      z-index: 80;
+    }
+
+    #toast.show {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <i>S</i>
+        <span>Study Now</span>
+        <span class="badge-official">موقع رسمي</span>
+      </div>
+      <div class="head-actions">
+        <div id="phase" class="note" style="margin:0"></div>
+        <button class="btn sm g" onclick="toggleTheme()" title="تبديل الوضع الليلي والنهاري">🌓 المظهر</button>
+        <button class="btn sm g" onclick="askGrade()">تغيير الصف</button>
+      </div>
+    </header>
+
+    <div class="acct" id="acct"><div class="who"><b>طالب Study Now</b><small><span class="dot on"></span>وضع الأصحاب المحلي نشط</small></div><button class="btn sm g">الأصحاب</button></div>
+
+    <!-- شريط التبويبات الرئيسي -->
+    <div class="tabs" role="tablist">
+      <button id="t1" class="" onclick="tab(1)">⏱️ جلسة دراسة</button>
+      <button id="t2" onclick="tab(2)">📊 إنجازي</button>
+      <button id="t3" onclick="tab(3)">🏫 المنصات والحصص</button>
+      <button id="t4" onclick="tab(4)">🗓️ جدولك الخاص</button>
+      <button id="t5" onclick="tab(5)">🤖 مساعد الذكاء</button>
+      <button id="t6" onclick="tab(6)" class="on">🌐 النشر والأصحاب</button>
+    </div>
+
+    <!-- 1. قسم جلسة الدراسة والمؤقت -->
+    <section id="p1" class="hide">
+      <div class="card">
+        <h3>
+          <span>اختر المادة والمنصة التعليمية</span>
+          <span class="pill" id="activePlatformBadge">المنصة: منصة درسك</span>
+        </h3>
+        <div class="subs" id="subs"><button class="sub " style="--c:#3b82f6" onclick="pick('phys')"><span>⚛️</span>فيزياء</button><button class="sub " style="--c:#f59e0b" onclick="pick('math')"><span>📐</span>رياضيات</button><button class="sub on" style="--c:#d98b2b" onclick="pick('earth')"><span>🌍</span>علوم الأرض</button><button class="sub " style="--c:#8b5cf6" onclick="pick('eng')"><span>🔤</span>إنجليزي</button></div>
+        <div class="field" style="margin-top:12px">
+          <label for="sessionPlatformSelect">المنصة التعليمية المرتبطة بهذه الجلسة (يُحتسب إنجازك ودقائقك فيها تلقائياً)</label>
+          <select id="sessionPlatformSelect" onchange="changeSessionPlatform(this.value)"><option value="منصة درسك">منصة درسك</option><option value="منصة جو أكاديمي">منصة جو أكاديمي</option><option value="منصة وتد">منصة وتد</option><option value="منصة أونلاين">منصة أونلاين</option><option value="منصة التعليم الإلكتروني">منصة التعليم الإلكتروني</option></select>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="ring">
+          <svg viewBox="0 0 200 200">
+            <circle class="bg" cx="100" cy="100" r="90"></circle>
+            <circle class="fg" id="fg" cx="100" cy="100" r="90" stroke-dasharray="565.5" stroke-dashoffset="0" style="stroke-dashoffset: 0px;"></circle>
+          </svg>
+          <div class="time">
+            <b id="clock">25:00</b>
+            <small id="mode">تركيز • علوم الأرض</small>
+          </div>
+        </div>
+        <div class="ctrl">
+          <button class="btn" id="go" onclick="toggle()">ابدأ الجلسة</button>
+          <button class="btn g" onclick="completeNowBtn()">إتمام جلسة فوراً ✓</button>
+          <button class="btn g" onclick="resetT()">إعادة</button>
+          <button class="btn g" onclick="full()" title="ملء الشاشة">⛶</button>
+        </div>
+        <div class="note" id="info">جلسات مكتملة اليوم: 0 • المنصة النشطة: منصة درسك</div>
+      </div>
+
+      <div class="card">
+        <h3>إعدادات الجلسة</h3>
+        <div class="set">
+          <div class="st">
+            <label>مدة التركيز</label>
+            <div>
+              <button onclick="adj('f',5)">+</button>
+              <b id="fv">25 د</b>
+              <button onclick="adj('f',-5)">−</button>
+            </div>
+          </div>
+          <div class="st">
+            <label>مدة الاستراحة</label>
+            <div>
+              <button onclick="adj('b',1)">+</button>
+              <b id="bv">5 د</b>
+              <button onclick="adj('b',-1)">−</button>
+            </div>
+          </div>
+        </div>
+        <div class="note">
+          🔕 وضع التركيز: عند إتمام جلسة تركيز، يُضاف الوقت تلقائياً إلى المادة والمنصة المختارة وتُحدَّث الحصص المنجزة المرتبطة.
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. قسم إنجازي وإحصائيات الدراسة -->
+    <section id="p2" class="hide">
+      <div class="card">
+        <h3>اليوم</h3>
+        <div class="grid3">
+          <div class="kpi"><b id="k1">0</b><span>دقيقة دراسة</span></div>
+          <div class="kpi"><b id="k2">0</b><span>جلسات</span></div>
+          <div class="kpi"><b id="k3">0</b><span>أيام متتالية</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>هذا الأسبوع <span id="wt" style="color:var(--mut);font-weight:600;font-size:13px"></span></h3>
+        <div class="bars" id="bars"></div>
+      </div>
+      <div class="card">
+        <h3>حسب المادة (الأسبوع)</h3>
+        <div id="bysub"></div>
+      </div>
+      <div class="card">
+        <h3>حسب المادة (اليوم)</h3>
+        <div id="bysubd"></div>
+      </div>
+      <button class="btn warn" style="width:100%" onclick="clearAll()">مسح بيانات الإنجاز</button>
+    </section>
+
+    <!-- 3. قسم ربط المنصات التعليمية والحصص المطلوبة -->
+    <section id="p3" class="hide">
+      <div class="card">
+        <h3>
+          <span>ملخص الحصص المطلوبة والمنجزة على المنصات</span>
+          <span class="pill" id="overallLessonsPill">7 / 16 حصة (44%)</span>
+        </h3>
+        <div class="grid3" style="margin-bottom:12px">
+          <div class="kpi"><b id="sumReqLessons">16</b><span>حصص مطلوبة</span></div>
+          <div class="kpi"><b id="sumDoneLessons">7</b><span>حصص منجزة</span></div>
+          <div class="kpi"><b id="sumRemLessons">9</b><span>حصص متبقية</span></div>
+        </div>
+        <div id="platformsSummaryList">
+          <div class="fc">
+            <div class="fh">
+              <b>🏫 منصة درسك</b>
+              <small>منجز: 2 • متبقي: 2 • مطلوب: 4 (50%)</small>
+            </div>
+            <div class="prog-wrap"><div class="prog-bar" style="width:50%"></div></div>
+          </div>
+        
+          <div class="fc">
+            <div class="fh">
+              <b>🏫 منصة جو أكاديمي</b>
+              <small>منجز: 3 • متبقي: 2 • مطلوب: 5 (60%)</small>
+            </div>
+            <div class="prog-wrap"><div class="prog-bar" style="width:60%"></div></div>
+          </div>
+        
+          <div class="fc">
+            <div class="fh">
+              <b>🏫 منصة وتد</b>
+              <small>منجز: 1 • متبقي: 3 • مطلوب: 4 (25%)</small>
+            </div>
+            <div class="prog-wrap"><div class="prog-bar" style="width:25%"></div></div>
+          </div>
+        
+          <div class="fc">
+            <div class="fh">
+              <b>🏫 منصة أونلاين</b>
+              <small>منجز: 1 • متبقي: 2 • مطلوب: 3 (33%)</small>
+            </div>
+            <div class="prog-wrap"><div class="prog-bar" style="width:33%"></div></div>
+          </div>
+        
+          <div class="fc">
+            <div class="fh">
+              <b>🏫 منصة التعليم الإلكتروني</b>
+              <small>منجز: 0 • متبقي: 0 • مطلوب: 0 (0%)</small>
+            </div>
+            <div class="prog-wrap"><div class="prog-bar" style="width:0%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>إضافة حصة مطلوبة أو منصة جديدة</h3>
+        <div class="form-grid cols-2">
+          <div class="field">
+            <label for="lpPlatform">المنصة التعليمية</label>
+            <select id="lpPlatform"><option value="منصة درسك">منصة درسك</option><option value="منصة جو أكاديمي">منصة جو أكاديمي</option><option value="منصة وتد">منصة وتد</option><option value="منصة أونلاين">منصة أونلاين</option><option value="منصة التعليم الإلكتروني">منصة التعليم الإلكتروني</option></select>
+          </div>
+          <div class="field">
+            <label for="lpSubject">المادة الدراسية</label>
+            <select id="lpSubject"><option value="phys">⚛️ فيزياء</option><option value="math">📐 رياضيات</option><option value="earth">🌍 علوم الأرض</option><option value="eng">🔤 إنجليزي</option></select>
+          </div>
+          <div class="field">
+            <label for="lpTitle">عنوان الحصة أو الدرس المطلوب</label>
+            <input id="lpTitle" type="text" placeholder="مثال: الوحدة الثانية - الاتزان الكيميائي">
+          </div>
+          <div class="field">
+            <label for="lpCount">عدد الحصص المطلوبة</label>
+            <input id="lpCount" type="number" min="1" max="100" value="2">
+          </div>
+        </div>
+        <div class="ctrl" style="justify-content:flex-start;margin-top:12px">
+          <button class="btn" onclick="addRequiredLesson()">+ إضافة الحصة المطلوبة</button>
+          <button class="btn g" onclick="toggleNewPlatformBox()">+ إضافة منصة تعليمية</button>
+        </div>
+
+        <div id="newPlatformBox" class="hide" style="margin-top:12px;padding-top:12px;border-top:1px solid var(--line)">
+          <div class="addrow">
+            <input id="customPlatformName" type="text" placeholder="اسم المنصة الجديدة (مثال: منصة نون أكاديمي)">
+            <button class="btn sm" onclick="addCustomPlatform()">حفظ المنصة</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>
+          <span>قائمة الحصص المطلوبة</span>
+          <select id="filterPlatformSelect" style="width:auto;padding:6px 10px;font-size:12.5px" onchange="renderLessons()"><option value="ALL">كل المنصات</option><option value="منصة درسك">منصة درسك</option><option value="منصة جو أكاديمي">منصة جو أكاديمي</option><option value="منصة وتد">منصة وتد</option><option value="منصة أونلاين">منصة أونلاين</option><option value="منصة التعليم الإلكتروني">منصة التعليم الإلكتروني</option></select>
+        </h3>
+        <div id="lessonsList">
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>🌍 خصائص الصخور والتربة</b>
+              <small>المنصة: <strong>منصة درسك</strong> • المادة: علوم الأرض • المنجز: 2/4 (متبقي 2 • 50%)</small>
+              <div class="prog-wrap" style="margin:6px 0 0"><div class="prog-bar" style="width:50%"></div></div>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm ok" onclick="stepLessonCompleted('l1', 1)">+ حصة منجزة</button>
+              <button class="btn sm g" onclick="stepLessonCompleted('l1', -1)">−</button>
+              <button class="btn sm" onclick="startLessonSession('l1')">▶ ابدأ</button>
+              <button class="btn sm warn" onclick="deleteLesson('l1')">حذف</button>
+            </div>
+          </div>
+        
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>📐 النهايات والاتصال</b>
+              <small>المنصة: <strong>منصة جو أكاديمي</strong> • المادة: رياضيات • المنجز: 3/5 (متبقي 2 • 60%)</small>
+              <div class="prog-wrap" style="margin:6px 0 0"><div class="prog-bar" style="width:60%"></div></div>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm ok" onclick="stepLessonCompleted('l2', 1)">+ حصة منجزة</button>
+              <button class="btn sm g" onclick="stepLessonCompleted('l2', -1)">−</button>
+              <button class="btn sm" onclick="startLessonSession('l2')">▶ ابدأ</button>
+              <button class="btn sm warn" onclick="deleteLesson('l2')">حذف</button>
+            </div>
+          </div>
+        
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>⚗️ الحموض والقواعد</b>
+              <small>المنصة: <strong>منصة وتد</strong> • المادة: الكيمياء • المنجز: 1/4 (متبقي 3 • 25%)</small>
+              <div class="prog-wrap" style="margin:6px 0 0"><div class="prog-bar" style="width:25%"></div></div>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm ok" onclick="stepLessonCompleted('l3', 1)">+ حصة منجزة</button>
+              <button class="btn sm g" onclick="stepLessonCompleted('l3', -1)">−</button>
+              <button class="btn sm" onclick="startLessonSession('l3')">▶ ابدأ</button>
+              <button class="btn sm warn" onclick="deleteLesson('l3')">حذف</button>
+            </div>
+          </div>
+        
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>⚛️ المجالات الكهربائية</b>
+              <small>المنصة: <strong>منصة أونلاين</strong> • المادة: فيزياء • المنجز: 1/3 (متبقي 2 • 33%)</small>
+              <div class="prog-wrap" style="margin:6px 0 0"><div class="prog-bar" style="width:33%"></div></div>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm ok" onclick="stepLessonCompleted('l4', 1)">+ حصة منجزة</button>
+              <button class="btn sm g" onclick="stepLessonCompleted('l4', -1)">−</button>
+              <button class="btn sm" onclick="startLessonSession('l4')">▶ ابدأ</button>
+              <button class="btn sm warn" onclick="deleteLesson('l4')">حذف</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. قسم "اصنع جدولك الخاص" -->
+    <section id="p4" class="hide">
+      <div class="card">
+        <h3>
+          <span>اصنع جدولك الدراسي الخاص</span>
+          <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <button class="btn sm g" onclick="applyPreset('g11')">قالب حادي عشر</button>
+            <button class="btn sm g" onclick="applyPreset('health')">قالب توجيهي صحي</button>
+            <button class="btn sm g" onclick="applyPreset('eng')">قالب توجيهي هندسي</button>
+          </div>
+        </h3>
+
+        <div class="form-grid cols-3">
+          <div class="field">
+            <label for="scDay">اليوم</label>
+            <select id="scDay"><option value="الأحد">الأحد</option><option value="الاثنين">الاثنين</option><option value="الثلاثاء">الثلاثاء</option><option value="الأربعاء">الأربعاء</option><option value="الخميس">الخميس</option><option value="الجمعة">الجمعة</option><option value="السبت">السبت</option></select>
+          </div>
+          <div class="field">
+            <label for="scSub">المادة</label>
+            <select id="scSub"><option value="phys">⚛️ فيزياء</option><option value="math">📐 رياضيات</option><option value="earth">🌍 علوم الأرض</option><option value="eng">🔤 إنجليزي</option></select>
+          </div>
+          <div class="field">
+            <label for="scPlat">المنصة</label>
+            <select id="scPlat"><option value="منصة درسك">منصة درسك</option><option value="منصة جو أكاديمي">منصة جو أكاديمي</option><option value="منصة وتد">منصة وتد</option><option value="منصة أونلاين">منصة أونلاين</option><option value="منصة التعليم الإلكتروني">منصة التعليم الإلكتروني</option></select>
+          </div>
+          <div class="field">
+            <label for="scType">نوع النشاط</label>
+            <select id="scType">
+              <option value="حصة مسجلة">حصة مسجلة</option>
+              <option value="حل أسئلة">حل أسئلة</option>
+              <option value="مراجعة مركزة">مراجعة مركزة</option>
+              <option value="تلخيص">تلخيص</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="scDur">المدة (دقيقة)</label>
+            <input id="scDur" type="number" min="5" max="240" value="45">
+          </div>
+          <div class="field">
+            <label for="scNote">ملاحظة / درس (اختياري)</label>
+            <input id="scNote" type="text" placeholder="مثال: حل تمارين الكتاب">
+          </div>
+        </div>
+
+        <div class="ctrl" style="justify-content:flex-start;margin-top:12px">
+          <button class="btn" id="scSaveBtn" onclick="saveScheduleItem()">+ إضافة إلى جدولي</button>
+          <button class="btn sm g hide" id="scCancelEdit" onclick="cancelEditSchedule()">إلغاء التعديل</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>
+          <span>جدولي الدراسي المخصص</span>
+          <select id="filterDaySelect" style="width:auto;padding:6px 10px;font-size:12.5px" onchange="renderSchedule()"><option value="ALL">كل الأيام</option><option value="الأحد">الأحد</option><option value="الاثنين">الاثنين</option><option value="الثلاثاء">الثلاثاء</option><option value="الأربعاء">الأربعاء</option><option value="الخميس">الخميس</option><option value="الجمعة">الجمعة</option><option value="السبت">السبت</option></select>
+        </h3>
+        <div id="scheduleList">
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>الأحد • 🌍 علوم الأرض (45 دقيقة)</b>
+              <small>المنصة: منصة درسك • النشاط: حصة مسجلة • متابعة الدرس الجديد وتدوين الملاحظات</small>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm" onclick="runScheduleNow('s1')">▶ ابدأ الجلسة الآن</button>
+              <button class="btn sm g" onclick="editScheduleItem('s1')">تعديل</button>
+              <button class="btn sm warn" onclick="deleteScheduleItem('s1')">حذف</button>
+            </div>
+          </div>
+        
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>الأحد • 📐 رياضيات (50 دقيقة)</b>
+              <small>المنصة: منصة جو أكاديمي • النشاط: حل أسئلة • تدريبات متنوعة على الدرس</small>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm" onclick="runScheduleNow('s2')">▶ ابدأ الجلسة الآن</button>
+              <button class="btn sm g" onclick="editScheduleItem('s2')">تعديل</button>
+              <button class="btn sm warn" onclick="deleteScheduleItem('s2')">حذف</button>
+            </div>
+          </div>
+        
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>الاثنين • ⚗️ الكيمياء (40 دقيقة)</b>
+              <small>المنصة: منصة وتد • النشاط: مراجعة مركزة • مراجعة القوانين والأفكار الرئيسية</small>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm" onclick="runScheduleNow('s3')">▶ ابدأ الجلسة الآن</button>
+              <button class="btn sm g" onclick="editScheduleItem('s3')">تعديل</button>
+              <button class="btn sm warn" onclick="deleteScheduleItem('s3')">حذف</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. قسم الذكاء الاصطناعي الخاص بالموقع -->
+    <section id="p5" class="hide">
+      <div class="card">
+        <h3>
+          <span>🤖 مساعد Study Now الذكي</span>
+          <span class="pill">مرتبط بحصصك وجدولك</span>
+        </h3>
+        <div class="note" style="text-align:right;margin:0 0 10px">
+          اسأل المساعد عن توزيع حصصك المطلوبة على المنصات، أو بناء خطة مذاكرة لليوم، أو شرح وتنظيم المواد الدراسية.
+        </div>
+
+        <div class="chips">
+          <button class="chip" onclick="quickAiPrompt('رتّب حصصي المتبقية على المنصات التعليمية حسب الأولوية')">📌 رتّب حصصي المتبقية</button>
+          <button class="chip" onclick="quickAiPrompt('اقترح جدول مراجعة عملي لليوم بناءً على جدولي الدراسي')">🗓️ خطة مراجعة اليوم</button>
+          <button class="chip" onclick="quickAiPrompt('أعطني أفضل طريقة للتركيز وإنهاء حصص المنصات بدون تشتت')">🎯 التغلب على التشتت</button>
+        </div>
+
+        <div class="chat-box" id="chatBox"><div class="msg ai">أهلاً بك في مساعد Study Now الذكي 👋
+يمكنني مساعدتك في تنظيم حصصك على المنصات التعليمية، اقتراح جدول دراسي، أو توزيع وقت المذاكرة اليوم.</div></div>
+
+        <div class="addrow">
+          <input id="aiInput" type="text" placeholder="اكتب سؤالك أو طلبك هنا..." onkeydown="if(event.key==='Enter')sendAiMessage()">
+          <button class="btn" id="aiSendBtn" onclick="sendAiMessage()">إرسال</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. قسم الموقع الرسمي، النشر على جوجل، والأصحاب -->
+    <section id="p6" class="">
+      <div class="card">
+        <h3>🌐 جعل Study Now موقعاً رسمياً ونشره على جوجل</h3>
+        <div class="note" style="text-align:right;margin:0 0 12px">
+          لجعل التطبيق موقعاً رسمياً متاحاً للجميع ومفهرساً في بحث Google، يمكنك تنزيل نسخة مستقلة جاهزة (<code>index.html</code>) ورفعها على استضافة مجانية سريعة مع ربط أدوات بحث Google:
+        </div>
+        <ol class="steps">
+          <li><strong>تنزيل ملف الموقع الرسمي:</strong> اضغط زر «تنزيل ملف index.html» أدناه للحصول على ملف متكامل يتضمن وسوم SEO وSchema.org.</li>
+          <li><strong>النشر المجاني السريع:</strong> ارفع الملف إلى <strong>GitHub Pages</strong> أو <strong>Cloudflare Pages</strong> أو <strong>Netlify</strong> لتحصل على رابط رسمي HTTPS مجاني خلال دقائق.</li>
+          <li><strong>ربط نطاق رسمي (اختياري):</strong> اربط دوميناً رسمياً مثل <code>studynow.edu</code> أو نطاقك الخاص عبر إعدادات DNS.</li>
+          <li><strong>الأرشفة في جوجل:</strong> أضف موقعك إلى <strong>Google Search Console</strong>، وتحقق من الملكية، ثم اطلب فهرسة الرابط الرئيسي (URL Inspection → Request Indexing) ليظهر في نتائج بحث Google.</li>
+        </ol>
+        <div class="ctrl" style="justify-content:flex-start;margin-top:14px">
+          <button class="btn" onclick="downloadOfficialHtml()">⬇️ تنزيل ملف index.html الرسمي</button>
+          <button class="btn g" onclick="copyShareInfo()">📋 نسخ نص التعريف الرسمي</button>
+        </div>
+      </div>
+
+      <div id="fOff" class="card hide">
+        <h3>👥 الأصحاب وحفظ الإنجاز</h3>
+        <div class="note" style="margin:0 0 12px">
+          يدعم التطبيق حفظ بياناتك محلياً على جهازك، كما يتصل تلقائياً بحساب Claude إن كان متاحاً، ويمكنك أيضاً تفعيل وضع أصحاب محلي فوري لتجربة مشاركة الأكواد والإنجازات مباشرة.
+        </div>
+        <div class="ctrl">
+          <a class="btn g" href="https://claude.ai/login" target="_blank" rel="noopener">تسجيل الدخول بحساب Claude</a>
+          <button class="btn" onclick="enableLocalFriendsMode()">تفعيل الأصحاب محلياً الآن</button>
+          <button class="btn g" onclick="doLogin()">تحقق من حساب Claude</button>
+        </div>
+      </div>
+
+      <div id="fOn" class="">
+        <div class="card">
+          <h3>كودك الشخصي</h3>
+          <div class="code" id="mycode">NN446B</div>
+          <div class="ctrl">
+            <button class="btn g" onclick="copyCode()">نسخ الكود</button>
+          </div>
+          <div class="st" style="margin-top:12px">
+            <label>اسمك الظاهر لأصحابك</label>
+            <input id="nm" maxlength="20" placeholder="اكتب اسمك" onchange="setName(this.value)">
+          </div>
+        </div>
+        <div class="card">
+          <h3>أضف صاحب</h3>
+          <div class="addrow">
+            <input id="fc" class="center-code" maxlength="8" placeholder="الكود مثل K7P2QX">
+            <button class="btn" onclick="addF()">إضافة</button>
+          </div>
+        </div>
+        <div class="card">
+          <h3>إنجاز الأصحاب</h3>
+          <div id="flist">أضف كود صاحبك بالأعلى لمتابعة إنجازه ومقارنته.</div>
+          <button class="btn g" style="width:100%" onclick="loadF()">تحديث</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="toast" class="">تم تنزيل ملف index.html الجاهز للنشر ✅</div>
+  <div id="ob" class="ob hide">
+    <div class="box">
+      <h2 id="obt">شو فرعك؟</h2>
+      <div class="b" id="obb"><button class="btn">🩺 صحي</button><button class="btn">⚙️ هندسي</button></div>
+    </div>
+  </div>
+
+  <script>
+    // تعريف المواد الدراسية والمسارات والأيام والمنصات التعليمية الافتراضية
+    const SUBJ = [
+      { id: 'ar', n: 'عربي', e: '📖', c: '#e0556b' },
+      { id: 'din', n: 'دين', e: '🕌', c: '#14a38b' },
+      { id: 'jo', n: 'تاريخ الأردن', e: '🏛️', c: '#c0762a' },
+      { id: 'engA', n: 'إنجليزي متقدم', e: '🔤', c: '#7c4ddb' },
+      { id: 'phys', n: 'فيزياء', e: '⚛️', c: '#3b82f6' },
+      { id: 'math', n: 'رياضيات', e: '📐', c: '#f59e0b' },
+      { id: 'earth', n: 'علوم الأرض', e: '🌍', c: '#d98b2b' },
+      { id: 'bio', n: 'الأحياء', e: '🧬', c: '#22a06b' },
+      { id: 'chem', n: 'الكيمياء', e: '⚗️', c: '#2b8ad9' },
+      { id: 'eng', n: 'إنجليزي', e: '🔤', c: '#8b5cf6' }
+    ];
+
+    const TR = {
+      g11: ['ar', 'din', 'jo', 'eng'],
+      health: ['bio', 'chem', 'earth', 'engA'],
+      eng: ['phys', 'math', 'earth', 'eng']
+    };
+
+    const DEFAULT_PLATFORMS = [
+      'منصة درسك',
+      'منصة جو أكاديمي',
+      'منصة وتد',
+      'منصة أونلاين',
+      'منصة التعليم الإلكتروني'
+    ];
+
+    const DAYS = ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'];
+    const $ = id => document.getElementById(id);
+
+    // حالة البيانات والإعدادات والحصص المطلوبة والجدول والمحادثة
+    let data = {};
+    let cfg = { f: 25, b: 5, s: 'earth', platform: 'منصة درسك', grade: 0, track: '', name: '', code: '', theme: 'auto', localFriends: false };
+    let sess = {};
+    let platforms = [...DEFAULT_PLATFORMS];
+    let lessons = [];
+    let schedule = [];
+    let chatHistory = [];
+    let editingScheduleId = null;
+
+    const key = d => {
+      d = d || new Date();
+      return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    };
+
+    function seedInitialLessons() {
+      return [
+        { id: 'l1', platform: 'منصة درسك', subject: 'earth', title: 'خصائص الصخور والتربة', required: 4, completed: 2, minutesLogged: 50 },
+        { id: 'l2', platform: 'منصة جو أكاديمي', subject: 'math', title: 'النهايات والاتصال', required: 5, completed: 3, minutesLogged: 75 },
+        { id: 'l3', platform: 'منصة وتد', subject: 'chem', title: 'الحموض والقواعد', required: 4, completed: 1, minutesLogged: 25 },
+        { id: 'l4', platform: 'منصة أونلاين', subject: 'phys', title: 'المجالات الكهربائية', required: 3, completed: 1, minutesLogged: 25 }
+      ];
+    }
+
+    function seedInitialSchedule() {
+      return [
+        { id: 's1', day: 'الأحد', subject: 'earth', platform: 'منصة درسك', type: 'حصة مسجلة', duration: 45, note: 'متابعة الدرس الجديد وتدوين الملاحظات' },
+        { id: 's2', day: 'الأحد', subject: 'math', platform: 'منصة جو أكاديمي', type: 'حل أسئلة', duration: 50, note: 'تدريبات متنوعة على الدرس' },
+        { id: 's3', day: 'الاثنين', subject: 'chem', platform: 'منصة وتد', type: 'مراجعة مركزة', duration: 40, note: 'مراجعة القوانين والأفكار الرئيسية' }
+      ];
+    }
+
+    try {
+      data = JSON.parse(localStorage.getItem('sn_data') || '{}');
+      cfg = Object.assign(cfg, JSON.parse(localStorage.getItem('sn_cfg') || '{}'));
+      sess = JSON.parse(localStorage.getItem('sn_sess') || '{}');
+      const sp = JSON.parse(localStorage.getItem('sn_platforms') || 'null');
+      if (Array.isArray(sp) && sp.length) platforms = sp;
+      const sl = JSON.parse(localStorage.getItem('sn_lessons') || 'null');
+      lessons = Array.isArray(sl) ? sl : seedInitialLessons();
+      const ss = JSON.parse(localStorage.getItem('sn_schedule') || 'null');
+      schedule = Array.isArray(ss) ? ss : seedInitialSchedule();
+      const ch = JSON.parse(localStorage.getItem('sn_chat') || 'null');
+      chatHistory = Array.isArray(ch) && ch.length ? ch : [
+        {
+          role: 'ai',
+          text: 'أهلاً بك في مساعد Study Now الذكي 👋\nيمكنني مساعدتك في تنظيم حصصك على المنصات التعليمية، اقتراح جدول دراسي، أو توزيع وقت المذاكرة اليوم.'
+        }
+      ];
+    } catch (e) {
+      lessons = seedInitialLessons();
+      schedule = seedInitialSchedule();
+    }
+
+    function save() {
+      try {
+        localStorage.setItem('sn_data', JSON.stringify(data));
+        localStorage.setItem('sn_cfg', JSON.stringify(cfg));
+        localStorage.setItem('sn_sess', JSON.stringify(sess));
+        localStorage.setItem('sn_platforms', JSON.stringify(platforms));
+        localStorage.setItem('sn_lessons', JSON.stringify(lessons));
+        localStorage.setItem('sn_schedule', JSON.stringify(schedule));
+        localStorage.setItem('sn_chat', JSON.stringify(chatHistory.slice(-30)));
+      } catch (e) {}
+    }
+
+    // تطبيق المظهر (تلقائي / ليلي / نهاري)
+    function applyTheme() {
+      if (cfg.theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else if (cfg.theme === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+      }
+    }
+
+    function toggleTheme() {
+      const order = ['auto', 'light', 'dark'];
+      cfg.theme = order[(order.indexOf(cfg.theme) + 1) % order.length];
+      applyTheme();
+      save();
+      const labels = { auto: 'تلقائي حسب الجهاز', light: 'الوضع النهاري', dark: 'الوضع الليلي' };
+      toast('المظهر: ' + labels[cfg.theme]);
+    }
+
+    // دوال مساعدة للمواد والمنصات
+    const mine = () => (TR[cfg.track] || TR.g11).map(id => SUBJ.find(s => s.id === id));
+    const sub = () => SUBJ.find(s => s.id === cfg.s) || SUBJ[0];
+    const getSubName = id => (SUBJ.find(s => s.id === id) || { n: 'مادة', e: '📘' });
+
+    function toast(t) {
+      const e = $('toast');
+      e.textContent = t;
+      e.classList.add('show');
+      clearTimeout(toast._t);
+      toast._t = setTimeout(() => e.classList.remove('show'), 3200);
+    }
+
+    function beep() {
+      try {
+        const a = new (window.AudioContext || window.webkitAudioContext)();
+        [0, 0.25, 0.5].forEach(t => {
+          const o = a.createOscillator(), g = a.createGain();
+          o.connect(g);
+          g.connect(a.destination);
+          o.frequency.value = 700;
+          g.gain.value = 0.15;
+          o.start(a.currentTime + t);
+          o.stop(a.currentTime + t + 0.15);
+        });
+      } catch (e) {}
+    }
+
+    // المؤقت وإدارة الجلسات وربطها بالمنصات والحصص
+    let mode = 'focus', run = false, left = cfg.f * 60, total = cfg.f * 60, last = 0, timer = null, acc = 0;
+
+    function renderPlatformSelects() {
+      if (!platforms.includes(cfg.platform)) cfg.platform = platforms[0] || 'منصة درسك';
+      const opts = platforms.map(p => `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`).join('');
+      $('sessionPlatformSelect').innerHTML = opts;
+      $('sessionPlatformSelect').value = cfg.platform;
+      $('lpPlatform').innerHTML = opts;
+      $('scPlat').innerHTML = opts;
+      $('filterPlatformSelect').innerHTML = '<option value="ALL">كل المنصات</option>' + opts;
+      $('activePlatformBadge').textContent = 'المنصة: ' + cfg.platform;
+    }
+
+    function renderSubjectSelects() {
+      const allSubs = mine();
+      const opts = allSubs.map(s => `<option value="${s.id}">${s.e} ${s.n}</option>`).join('');
+      $('lpSubject').innerHTML = opts;
+      $('scSub').innerHTML = opts;
+      $('scDay').innerHTML = DAYS.map(d => `<option value="${d}">${d}</option>`).join('');
+      $('filterDaySelect').innerHTML = '<option value="ALL">كل الأيام</option>' + DAYS.map(d => `<option value="${d}">${d}</option>`).join('');
+    }
+
+    function changeSessionPlatform(val) {
+      cfg.platform = val;
+      $('activePlatformBadge').textContent = 'المنصة: ' + cfg.platform;
+      save();
+      toast('تم اختيار المنصة: ' + val);
+    }
+
+    function renderSubs() {
+      $('subs').innerHTML = mine().map(s =>
+        `<button class="sub ${s.id === cfg.s ? 'on' : ''}" style="--c:${s.c}" onclick="pick('${s.id}')"><span>${s.e}</span>${s.n}</button>`
+      ).join('');
+      document.documentElement.style.setProperty('--c', sub().c);
+      renderSubjectSelects();
+    }
+
+    function pick(id) {
+      if (run && mode === 'focus') {
+        toast('أوقف الجلسة أولاً لتغيير المادة');
+        return;
+      }
+      cfg.s = id;
+      save();
+      renderSubs();
+      draw();
+    }
+
+    function fmt(s) {
+      return String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0');
+    }
+
+    function draw() {
+      $('clock').textContent = fmt(Math.max(0, Math.ceil(left)));
+      $('fg').style.strokeDashoffset = 565.5 * (1 - left / total);
+      $('mode').textContent = mode === 'focus' ? 'تركيز • ' + sub().n : 'استراحة ☕';
+      $('phase').textContent = run ? (mode === 'focus' ? '🔒 وضع التركيز' : '☕ استراحة') : '';
+      $('go').textContent = run ? 'إيقاف مؤقت' : (left < total ? 'متابعة' : 'ابدأ الجلسة');
+      $('fv').textContent = cfg.f + ' د';
+      $('bv').textContent = cfg.b + ' د';
+      $('info').textContent = 'جلسات مكتملة اليوم: ' + (sess[key()] || 0) + ' • المنصة النشطة: ' + cfg.platform;
+      document.title = run ? fmt(Math.ceil(left)) + ' • Study Now' : 'Study Now';
+    }
+
+    function adj(k, d) {
+      if (run) {
+        toast('أوقف الجلسة لتعديل المدة');
+        return;
+      }
+      cfg[k] = Math.min(k === 'f' ? 180 : 60, Math.max(1, cfg[k] + d));
+      save();
+      setMode(mode);
+    }
+
+    function setMode(m) {
+      mode = m;
+      total = (m === 'focus' ? cfg.f : cfg.b) * 60;
+      left = total;
+      draw();
+    }
+
+    // ربط الوقت المنجز بالمادة، والمنصة، والحصص المطلوبة تلقائياً
+    function linkProgressToPlatformLesson(sec) {
+      const minsAdded = sec / 60;
+      let updatedAny = false;
+      for (const l of lessons) {
+        if (l.platform === cfg.platform && l.subject === cfg.s && l.completed < l.required) {
+          l.minutesLogged = Number(((l.minutesLogged || 0) + minsAdded).toFixed(1));
+          // كل 25 دقيقة تركيز تُحسب كإنجاز جزئي أو حصة عند بلوغ عتبة الجلسة
+          const expectedMins = (l.completed + 1) * cfg.f;
+          if (l.minutesLogged >= expectedMins) {
+            l.completed = Math.min(l.required, l.completed + 1);
+            updatedAny = true;
+          }
+          break;
+        }
+      }
+      if (updatedAny) {
+        toast('🎉 تم إنجاز حصة إضافية في ' + cfg.platform + ' (' + sub().n + ')');
+      }
+    }
+
+    function addTime(sec) {
+      const k = key();
+      data[k] = data[k] || {};
+      data[k][cfg.s] = (data[k][cfg.s] || 0) + sec;
+      linkProgressToPlatformLesson(sec);
+    }
+
+    function finalizeCompletedSession() {
+      sess[key()] = (sess[key()] || 0) + 1;
+      // عند إتمام جلسة كاملة، نضمن احتساب حصة منجزة إن وُجدت حصة مطابقة للمادة والمنصة ولم تكتمل بعد
+      const target = lessons.find(l => l.platform === cfg.platform && l.subject === cfg.s && l.completed < l.required);
+      if (target) {
+        target.completed = Math.min(target.required, target.completed + 1);
+        target.minutesLogged = Math.max(target.minutesLogged || 0, target.completed * cfg.f);
+      }
+      save();
+      sync(true);
+      if (!$('p3').classList.contains('hide')) renderLessons();
+    }
+
+    function completeNowBtn() {
+      const remainingSec = Math.max(0, Math.ceil(left));
+      if (mode === 'focus' && remainingSec > 0) {
+        addTime(remainingSec);
+      }
+      run = false;
+      clearInterval(timer);
+      if (mode === 'focus') {
+        finalizeCompletedSession();
+        toast('أحسنت! تم احتساب الجلسة وربطها بالمنصة ✅');
+        setMode('break');
+      } else {
+        setMode('focus');
+      }
+    }
+
+    function tick() {
+      const n = Date.now(), dt = (n - last) / 1000;
+      last = n;
+      left -= dt;
+      if (mode === 'focus') {
+        acc += dt;
+        if (acc >= 1) {
+          const w = Math.floor(acc);
+          addTime(w);
+          acc -= w;
+          save();
+          sync();
+        }
+      }
+      if (left <= 0) {
+        beep();
+        if (mode === 'focus') {
+          if (acc > 0) {
+            addTime(acc);
+            acc = 0;
+          }
+          finalizeCompletedSession();
+          toast('أحسنت! 🎉 وقت الاستراحة');
+          setMode('break');
+        } else {
+          toast('انتهت الاستراحة، يلا نكمل 💪');
+          setMode('focus');
+        }
+        last = Date.now();
+      }
+      draw();
+    }
+
+    function toggle() {
+      if (run) {
+        run = false;
+        clearInterval(timer);
+        save();
+        sync(true);
+      } else {
+        run = true;
+        last = Date.now();
+        timer = setInterval(tick, 500);
+      }
+      draw();
+    }
+
+    function resetT() {
+      run = false;
+      clearInterval(timer);
+      acc = 0;
+      setMode('focus');
+    }
+
+    function full() {
+      try {
+        document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
+      } catch (e) {}
+    }
+
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden && run && mode === 'focus') {
+        toast('⚠️ غادرت الصفحة أثناء الجلسة، ارجع للتركيز!');
+      }
+    });
+
+    // التنقل بين التبويبات الستة
+    function tab(n) {
+      [1, 2, 3, 4, 5, 6].forEach(i => {
+        $('p' + i).classList.toggle('hide', i !== n);
+        $('t' + i).classList.toggle('on', i === n);
+      });
+      if (n === 2) stats();
+      if (n === 3) renderLessons();
+      if (n === 4) renderSchedule();
+      if (n === 5) renderChat();
+      if (n === 6) friends();
+    }
+
+    // الإحصائيات
+    const mins = o => Math.round(Object.values(o || {}).reduce((a, b) => a + b, 0) / 60);
+    const hm = m => m >= 60 ? Math.floor(m / 60) + 'س ' + (m % 60) + 'د' : m + 'د';
+
+    function stats() {
+      const now = new Date(), w = [];
+      for (let i = 6; i >= 0; i--) {
+        const d = new Date(now);
+        d.setDate(now.getDate() - i);
+        w.push(d);
+      }
+      const vals = w.map(d => mins(data[key(d)])), mx = Math.max(60, ...vals);
+      $('bars').innerHTML = w.map((d, i) =>
+        `<div class="bar ${i === 6 ? 'today' : ''}"><span>${vals[i]}</span><div style="height:${vals[i] / mx * 100}%"></div><span>${DAYS[d.getDay()]}</span></div>`
+      ).reverse().join('');
+      $('wt').textContent = '• ' + hm(vals.reduce((a, b) => a + b, 0));
+
+      const td = data[key()] || {};
+      $('k1').textContent = mins(td);
+      $('k2').textContent = sess[key()] || 0;
+
+      let st = 0;
+      for (let i = 0; i < 365; i++) {
+        const d = new Date(now);
+        d.setDate(now.getDate() - i);
+        if (mins(data[key(d)]) > 0) st++;
+        else if (i > 0) break;
+        else continue;
+      }
+      $('k3').textContent = st;
+
+      const wk = {};
+      w.forEach(d => {
+        const o = data[key(d)] || {};
+        for (const s in o) wk[s] = (wk[s] || 0) + o[s];
+      });
+
+      const bl = o => {
+        const m = Math.max(60, ...mine().map(s => (o[s.id] || 0) / 60));
+        return mine().map(s => {
+          const v = Math.round((o[s.id] || 0) / 60);
+          return `<div class="row"><span style="min-width:110px">${s.e} ${s.n}</span><div class="t"><i style="width:${v / m * 100}%;background:${s.c}"></i></div><em>${hm(v)}</em></div>`;
+        }).join('');
+      };
+      $('bysub').innerHTML = bl(wk);
+      $('bysubd').innerHTML = bl(td);
+    }
+
+    function clearAll() {
+      data = {};
+      sess = {};
+      save();
+      stats();
+      toast('تم مسح بيانات الإنجاز');
+    }
+
+    // إدارة المنصات التعليمية والحصص المطلوبة
+    function toggleNewPlatformBox() {
+      $('newPlatformBox').classList.toggle('hide');
+      $('customPlatformName').focus();
+    }
+
+    function addCustomPlatform() {
+      const name = $('customPlatformName').value.trim();
+      if (!name) {
+        toast('اكتب اسم المنصة أولاً');
+        return;
+      }
+      if (!platforms.includes(name)) {
+        platforms.push(name);
+        cfg.platform = name;
+        save();
+        renderPlatformSelects();
+        renderLessons();
+        toast('تمت إضافة المنصة: ' + name + ' ✅');
+      } else {
+        toast('المنصة موجودة مسبقاً');
+      }
+      $('customPlatformName').value = '';
+      $('newPlatformBox').classList.add('hide');
+    }
+
+    function addRequiredLesson() {
+      const platform = $('lpPlatform').value;
+      const subject = $('lpSubject').value;
+      const title = $('lpTitle').value.trim() || ('حصص ' + getSubName(subject).n);
+      const required = Math.max(1, Math.min(200, Number($('lpCount').value) || 1));
+
+      lessons.unshift({
+        id: 'l_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
+        platform,
+        subject,
+        title,
+        required,
+        completed: 0,
+        minutesLogged: 0
+      });
+
+      $('lpTitle').value = '';
+      $('lpCount').value = '2';
+      save();
+      renderLessons();
+      toast('تمت إضافة الحصة المطلوبة على ' + platform + ' ✅');
+    }
+
+    function stepLessonCompleted(id, delta) {
+      const item = lessons.find(l => l.id === id);
+      if (!item) return;
+      item.completed = Math.max(0, Math.min(item.required, item.completed + delta));
+      if (delta > 0) {
+        // إضافة دقائق إنجاز تلقائية للمادة واليوم عند إتمام حصة
+        const addedSec = cfg.f * 60;
+        const k = key();
+        data[k] = data[k] || {};
+        data[k][item.subject] = (data[k][item.subject] || 0) + addedSec;
+        item.minutesLogged = (item.minutesLogged || 0) + cfg.f;
+      }
+      save();
+      renderLessons();
+    }
+
+    function startLessonSession(id) {
+      const item = lessons.find(l => l.id === id);
+      if (!item) return;
+      if (run) {
+        toast('أوقف الجلسة الحالية أولاً');
+        return;
+      }
+      cfg.s = item.subject;
+      cfg.platform = item.platform;
+      save();
+      renderSubs();
+      renderPlatformSelects();
+      setMode('focus');
+      tab(1);
+      toggle();
+      toast('بدأت جلسة: ' + item.title + ' (' + item.platform + ')');
+    }
+
+    function deleteLesson(id) {
+      lessons = lessons.filter(l => l.id !== id);
+      save();
+      renderLessons();
+      toast('تم حذف البند');
+    }
+
+    function renderLessons() {
+      const totalReq = lessons.reduce((acc, l) => acc + Number(l.required || 0), 0);
+      const totalDone = lessons.reduce((acc, l) => acc + Math.min(Number(l.required || 0), Number(l.completed || 0)), 0);
+      const totalRem = Math.max(0, totalReq - totalDone);
+      const pct = totalReq > 0 ? Math.round((totalDone / totalReq) * 100) : 0;
+
+      $('sumReqLessons').textContent = totalReq;
+      $('sumDoneLessons').textContent = totalDone;
+      $('sumRemLessons').textContent = totalRem;
+      $('overallLessonsPill').textContent = `${totalDone} / ${totalReq} حصة (${pct}%)`;
+
+      $('platformsSummaryList').innerHTML = platforms.map(p => {
+        const pLessons = lessons.filter(l => l.platform === p);
+        const req = pLessons.reduce((a, b) => a + Number(b.required || 0), 0);
+        const done = pLessons.reduce((a, b) => a + Math.min(Number(b.required || 0), Number(b.completed || 0)), 0);
+        const rem = Math.max(0, req - done);
+        const pPct = req > 0 ? Math.round((done / req) * 100) : 0;
+        return `
+          <div class="fc">
+            <div class="fh">
+              <b>🏫 ${escapeHtml(p)}</b>
+              <small>منجز: ${done} • متبقي: ${rem} • مطلوب: ${req} (${pPct}%)</small>
+            </div>
+            <div class="prog-wrap"><div class="prog-bar" style="width:${pPct}%"></div></div>
+          </div>
+        `;
+      }).join('');
+
+      const filterVal = $('filterPlatformSelect').value || 'ALL';
+      const filtered = filterVal === 'ALL' ? lessons : lessons.filter(l => l.platform === filterVal);
+
+      if (!filtered.length) {
+        $('lessonsList').innerHTML = '<div class="note">لا توجد حصص مطلوبة ضمن هذا الفلتر بعد. أضف حصة جديدة من النموذج أعلاه.</div>';
+        return;
+      }
+
+      $('lessonsList').innerHTML = filtered.map(l => {
+        const s = getSubName(l.subject);
+        const done = Math.min(l.required, l.completed);
+        const rem = Math.max(0, l.required - done);
+        const pctItem = l.required > 0 ? Math.round((done / l.required) * 100) : 0;
+        return `
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>${s.e} ${escapeHtml(l.title)}</b>
+              <small>المنصة: <strong>${escapeHtml(l.platform)}</strong> • المادة: ${s.n} • المنجز: ${done}/${l.required} (متبقي ${rem} • ${pctItem}%)</small>
+              <div class="prog-wrap" style="margin:6px 0 0"><div class="prog-bar" style="width:${pctItem}%"></div></div>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm ok" onclick="stepLessonCompleted('${l.id}', 1)" ${done >= l.required ? 'disabled' : ''}>+ حصة منجزة</button>
+              <button class="btn sm g" onclick="stepLessonCompleted('${l.id}', -1)" ${done <= 0 ? 'disabled' : ''}>−</button>
+              <button class="btn sm" onclick="startLessonSession('${l.id}')">▶ ابدأ</button>
+              <button class="btn sm warn" onclick="deleteLesson('${l.id}')">حذف</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // قسم "اصنع جدولك الخاص" والقوالب الجاهزة
+    function saveScheduleItem() {
+      const day = $('scDay').value;
+      const subject = $('scSub').value;
+      const platform = $('scPlat').value;
+      const type = $('scType').value;
+      const duration = Math.max(5, Math.min(240, Number($('scDur').value) || 30));
+      const note = $('scNote').value.trim();
+
+      if (editingScheduleId) {
+        const idx = schedule.findIndex(x => x.id === editingScheduleId);
+        if (idx !== -1) {
+          schedule[idx] = { id: editingScheduleId, day, subject, platform, type, duration, note };
+          toast('تم تحديث بند الجدول ✅');
+        }
+        editingScheduleId = null;
+        $('scSaveBtn').textContent = '+ إضافة إلى جدولي';
+        $('scCancelEdit').classList.add('hide');
+      } else {
+        schedule.push({
+          id: 's_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6),
+          day,
+          subject,
+          platform,
+          type,
+          duration,
+          note
+        });
+        toast('تمت إضافة البند إلى جدولك الخاص ✅');
+      }
+
+      $('scNote').value = '';
+      save();
+      renderSchedule();
+    }
+
+    function editScheduleItem(id) {
+      const item = schedule.find(x => x.id === id);
+      if (!item) return;
+      editingScheduleId = id;
+      $('scDay').value = item.day;
+      $('scSub').value = item.subject;
+      $('scPlat').value = item.platform;
+      $('scType').value = item.type;
+      $('scDur').value = item.duration;
+      $('scNote').value = item.note || '';
+      $('scSaveBtn').textContent = 'حفظ التعديل';
+      $('scCancelEdit').classList.remove('hide');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function cancelEditSchedule() {
+      editingScheduleId = null;
+      $('scNote').value = '';
+      $('scSaveBtn').textContent = '+ إضافة إلى جدولي';
+      $('scCancelEdit').classList.add('hide');
+    }
+
+    function deleteScheduleItem(id) {
+      schedule = schedule.filter(x => x.id !== id);
+      if (editingScheduleId === id) cancelEditSchedule();
+      save();
+      renderSchedule();
+      toast('تم حذف البند من الجدول');
+    }
+
+    function runScheduleNow(id) {
+      const item = schedule.find(x => x.id === id);
+      if (!item) return;
+      if (run) {
+        toast('أوقف الجلسة الحالية أولاً');
+        return;
+      }
+      cfg.s = item.subject;
+      cfg.platform = item.platform;
+      cfg.f = item.duration;
+      save();
+      renderSubs();
+      renderPlatformSelects();
+      setMode('focus');
+      tab(1);
+      toggle();
+      toast('بدأت الجلسة من جدولك: ' + getSubName(item.subject).n + ' (' + item.duration + ' د)');
+    }
+
+    function applyPreset(presetKey) {
+      const subsList = TR[presetKey] || TR.g11;
+      const p0 = platforms[0] || 'منصة درسك';
+      const p1 = platforms[1] || p0;
+      const p2 = platforms[2] || p0;
+      schedule = [
+        { id: 'pr1_' + Date.now(), day: 'الأحد', subject: subsList[0], platform: p0, type: 'حصة مسجلة', duration: 45, note: 'شرح الدرس الأساسي' },
+        { id: 'pr2_' + Date.now(), day: 'الأحد', subject: subsList[1], platform: p1, type: 'حل أسئلة', duration: 40, note: 'تطبيق عملي وحل تدريبات' },
+        { id: 'pr3_' + Date.now(), day: 'الثلاثاء', subject: subsList[2], platform: p2, type: 'مراجعة مركزة', duration: 45, note: 'مراجعة شاملة وتلخيص' },
+        { id: 'pr4_' + Date.now(), day: 'الخميس', subject: subsList[3], platform: p0, type: 'حل أسئلة', duration: 35, note: 'اختبار ذاتي سريع' }
+      ];
+      save();
+      renderSchedule();
+      toast('تم تطبيق القالب الجاهز ويمكنك تعديله بحرية ✅');
+    }
+
+    function renderSchedule() {
+      const dayFilter = $('filterDaySelect').value || 'ALL';
+      const items = dayFilter === 'ALL' ? schedule : schedule.filter(x => x.day === dayFilter);
+      if (!items.length) {
+        $('scheduleList').innerHTML = '<div class="note">لا توجد بنود في الجدول لهذا الاختيار. أضف بنداً جديداً أو اختر قالباً جاهزاً.</div>';
+        return;
+      }
+
+      $('scheduleList').innerHTML = items.map(item => {
+        const s = getSubName(item.subject);
+        return `
+          <div class="lesson-item">
+            <div class="lesson-meta">
+              <b>${escapeHtml(item.day)} • ${s.e} ${s.n} (${item.duration} دقيقة)</b>
+              <small>المنصة: ${escapeHtml(item.platform)} • النشاط: ${escapeHtml(item.type)}${item.note ? ' • ' + escapeHtml(item.note) : ''}</small>
+            </div>
+            <div class="lesson-actions">
+              <button class="btn sm" onclick="runScheduleNow('${item.id}')">▶ ابدأ الجلسة الآن</button>
+              <button class="btn sm g" onclick="editScheduleItem('${item.id}')">تعديل</button>
+              <button class="btn sm warn" onclick="deleteScheduleItem('${item.id}')">حذف</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // مساعد Study Now الذكي (Gemini API مع رد ذكي محلي احتياطي)
+    function renderChat() {
+      $('chatBox').innerHTML = chatHistory.map(m =>
+        `<div class="msg ${m.role === 'user' ? 'user' : 'ai'}">${escapeHtml(m.text)}</div>`
+      ).join('');
+      $('chatBox').scrollTop = $('chatBox').scrollHeight;
+    }
+
+    function buildLocalSmartReply(promptText) {
+      const remLessons = lessons.filter(l => l.completed < l.required);
+      const remSummary = remLessons.length
+        ? remLessons.map(l => `- ${l.platform} (${getSubName(l.subject).n}): ${l.title} — متبقي ${l.required - l.completed} حصة`).join('\n')
+        : 'ممتاز! لقد أنهيت جميع الحصص المطلوبة المسجلة حالياً.';
+
+      const todayDay = DAYS[new Date().getDay()];
+      const todaySched = schedule.filter(s => s.day === todayDay);
+      const schedSummary = todaySched.length
+        ? todaySched.map(s => `- ${getSubName(s.subject).n} (${s.duration} د) على ${s.platform} [${s.type}]`).join('\n')
+        : 'لا توجد بنود مجدولة لليوم بعد؛ يمكنك إضافة بنود من تبويب "جدولك الخاص".';
+
+      if (promptText.includes('حصص') || promptText.includes('منصات') || promptText.includes('رتّب')) {
+        return `إليك ترتيب عملي لحصصك المتبقية على المنصات:\n${remSummary}\n\n💡 نصيحة: ابدأ بالحصص ذات العدد الأقل من الحصص المتبقية لإنجاز سريع يحفّزك، ثم انتقل للمواد الأثقل في جلسات 25–45 دقيقة.`;
+      }
+
+      if (promptText.includes('جدول') || promptText.includes('مراجعة') || promptText.includes('اليوم')) {
+        return `خطة يومك (${todayDay}) بناءً على جدولك:\n${schedSummary}\n\n⏱️ قسّم كل جلسة إلى تركيز مركّز يليه استراحة 5 دقائق، وسجّل إتمام الحصة فور انتهائها.`;
+      }
+
+      return `بناءً على سؤالك ("${promptText}"):\n• حصصك المتبقية حالياً:\n${remSummary}\n\n• خطوة عملية مقترحة: اختر مادة واحدة فقط، حدّد المنصة التعليمية من تبويب "جلسة دراسة"، وابدأ مؤقت التركيز دون فتح إشعارات جانبية.`;
+    }
+
+    async function callGeminiWithBackoff(userText) {
+      const contextSnapshot = {
+        grade: cfg.grade,
+        track: cfg.track,
+        activePlatform: cfg.platform,
+        lessons,
+        schedule
+      };
+      const systemInstruction = 'أنت مساعد الدراسة الذكي الرسمي لتطبيق Study Now باللغة العربية. ساعد الطالب في تنظيم حصصه على المنصات التعليمية، وبناء جداول دراسية، وتقديم نصائح مذاكرة مركزة وعملية بإيجاز ووضوح.';
+      const fullPrompt = `سؤال الطالب: ${userText}\n\nبيانات الطالب الحالية (حصص المنصات والجدول): ${JSON.stringify(contextSnapshot)}`;
+
+      const apiKey = '';
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+      const payload = {
+        contents: [{ role: 'user', parts: [{ text: fullPrompt }] }],
+        systemInstruction: { parts: [{ text: systemInstruction }] }
+      };
+
+      const delays = [1000, 2000];
+      for (let attempt = 0; attempt <= delays.length; attempt++) {
+        try {
+          const res = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          const json = await res.json();
+          const txt = json?.candidates?.[0]?.content?.parts?.[0]?.text;
+          if (txt && txt.trim()) return txt.trim();
+          throw new Error('Empty response');
+        } catch (err) {
+          if (attempt < delays.length) {
+            await new Promise(r => setTimeout(r, delays[attempt]));
+          } else {
+            return buildLocalSmartReply(userText);
+          }
+        }
+      }
+      return buildLocalSmartReply(userText);
+    }
+
+    async function sendAiMessage(customText) {
+      const input = $('aiInput');
+      const text = (typeof customText === 'string' ? customText : input.value).trim();
+      if (!text) return;
+
+      if (typeof customText !== 'string') input.value = '';
+      chatHistory.push({ role: 'user', text });
+      save();
+      renderChat();
+
+      const btn = $('aiSendBtn');
+      btn.disabled = true;
+      btn.textContent = '...';
+
+      const reply = await callGeminiWithBackoff(text);
+      chatHistory.push({ role: 'ai', text: reply });
+      save();
+      renderChat();
+
+      btn.disabled = false;
+      btn.textContent = 'إرسال';
+    }
+
+    function quickAiPrompt(q) {
+      sendAiMessage(q);
+    }
+
+    // تصدير نسخة رسمية من ملف HTML ونسخ نص التعريف للنشر على جوجل
+    function downloadOfficialHtml() {
+      try {
+        const htmlContent = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+        const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'index.html';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(a.href), 1500);
+        toast('تم تنزيل ملف index.html الجاهز للنشر ✅');
+      } catch (e) {
+        toast('تعذر التنزيل المباشر في هذه البيئة');
+      }
+    }
+
+    function copyShareInfo() {
+      const shareText = 'Study Now — منصة الدراسة الذكية لمتابعة حصص المنصات التعليمية، بناء الجداول الدراسية، ومؤقت التركيز باللغة العربية.';
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = shareText;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        ta.remove();
+        toast('تم نسخ نص التعريف الرسمي ✅');
+      } catch (e) {
+        toast(shareText);
+      }
+    }
+
+    // اختيار الصف والفرع
+    const el = (t, c, x) => {
+      const e = document.createElement(t);
+      if (c) e.className = c;
+      if (x != null) e.textContent = x;
+      return e;
+    };
+
+    const lbl = () => cfg.grade == 11 ? 'حادي عشر' : 'ثاني عشر • ' + (cfg.track === 'health' ? 'صحي' : 'هندسي');
+
+    function ask(t, o) {
+      $('obt').textContent = t;
+      const b = $('obb');
+      b.textContent = '';
+      o.forEach(([x, f]) => {
+        const e = el('button', 'btn', x);
+        e.onclick = f;
+        b.appendChild(e);
+      });
+      $('ob').classList.remove('hide');
+    }
+
+    function askGrade() {
+      if (run) toggle();
+      const o = [
+        ['حادي عشر', () => done(11, 'g11')],
+        ['ثاني عشر (توجيهي)', () => ask('شو فرعك؟', [
+          ['🩺 صحي', () => done(12, 'health')],
+          ['⚙️ هندسي', () => done(12, 'eng')]
+        ])]
+      ];
+      if (cfg.grade) o.push(['إلغاء', () => $('ob').classList.add('hide')]);
+      ask('أي صف أنت؟', o);
+    }
+
+    function done(g, t) {
+      cfg.grade = g;
+      cfg.track = t;
+      if (!TR[t].includes(cfg.s)) cfg.s = TR[t][0];
+      save();
+      $('ob').classList.add('hide');
+      renderSubs();
+      setMode('focus');
+      sync(true);
+      if (!$('p2').classList.contains('hide')) stats();
+    }
+
+    // الأصحاب (دعم اتصال Claude عند توفره + وضع محلي فوري بدون تعطل)
+    let db = null, uid = null, lastSync = 0;
+    const genCode = () => Array.from({ length: 6 }, () => 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'[Math.floor(Math.random() * 31)]).join('');
+
+    function payload() {
+      const now = new Date(), wk = [], sb = {};
+      for (let i = 6; i >= 0; i--) {
+        const d = new Date(now);
+        d.setDate(now.getDate() - i);
+        const o = data[key(d)] || {};
+        wk.push(mins(o));
+        for (const s in o) sb[s] = (sb[s] || 0) + Math.round(o[s] / 60);
+      }
+      return {
+        name: cfg.name || 'طالب',
+        code: cfg.code,
+        label: lbl(),
+        date: key(),
+        week: wk,
+        sub: sb,
+        sess: sess[key()] || 0
+      };
+    }
+
+    function saveLocalProfileAndFriends(friendCodeToAdd) {
+      let store = { profiles: {}, friends: {} };
+      try {
+        store = Object.assign(store, JSON.parse(localStorage.getItem('sn_local_social') || '{}'));
+      } catch (e) {}
+      if (!cfg.code) cfg.code = genCode();
+      const meId = cfg.code;
+      store.profiles[meId] = payload();
+      store.friends[meId] = store.friends[meId] || [];
+
+      if (friendCodeToAdd) {
+        const targetCode = friendCodeToAdd.toUpperCase();
+        if (targetCode === meId) {
+          toast('هذا كودك أنت 😄');
+          return false;
+        }
+        if (!store.profiles[targetCode]) {
+          // إنشاء ملف تجريبي لصاحب الكود المدخل لتمكين التجربة الفورية
+          store.profiles[targetCode] = {
+            name: 'صديق (' + targetCode + ')',
+            code: targetCode,
+            label: lbl(),
+            date: key(),
+            week: [30, 45, 60, 25, 50, 40, 35],
+            sub: { math: 90, phys: 75, earth: 60 },
+            sess: 2
+          };
+        }
+        if (!store.friends[meId].includes(targetCode)) {
+          store.friends[meId].push(targetCode);
+        }
+      }
+
+      try {
+        localStorage.setItem('sn_local_social', JSON.stringify(store));
+      } catch (e) {}
+      return store;
+    }
+
+    async function sync(f) {
+      if (cfg.localFriends) {
+        saveLocalProfileAndFriends(null);
+        return;
+      }
+      if (!db || !uid || !cfg.code || !cfg.grade) return;
+      const n = Date.now();
+      if (!f && n - lastSync < 30000) return;
+      lastSync = n;
+      try {
+        await db.doc('profiles/' + uid).set(payload());
+      } catch (e) {}
+    }
+
+    let acct = { st: 'load', name: '', avatar: '' };
+
+    function drawAcct() {
+      const b = $('acct');
+      b.textContent = '';
+      if (acct.st === 'in') {
+        const w = el('div', 'who');
+        const n = el('b', 0, acct.name || cfg.name || 'طالب');
+        const m = el('small');
+        const d = el('span', 'dot on');
+        m.append(d, cfg.localFriends ? 'وضع الأصحاب المحلي نشط' : 'متصل بحساب Claude');
+        w.append(n, m);
+        const x = el('button', 'btn sm g', 'الأصحاب');
+        x.onclick = () => tab(6);
+        b.append(w, x);
+      } else {
+        const w = el('div', 'who');
+        const n = el('b', 0, acct.st === 'load' ? 'جاري التحقق من الحساب...' : 'حساب الدراسة جاهز');
+        const m = el('small');
+        m.append(el('span', 'dot'), 'فعّل الأصحاب أو تابع حفظك المحلي التلقائي');
+        w.append(n, m);
+        b.append(w);
+        if (acct.st !== 'load') {
+          const x = el('button', 'btn sm', 'الأصحاب');
+          x.onclick = () => tab(6);
+          b.append(x);
+        }
+      }
+    }
+
+    function enableLocalFriendsMode() {
+      cfg.localFriends = true;
+      if (!cfg.code) cfg.code = genCode();
+      save();
+      saveLocalProfileAndFriends(null);
+      acct = { st: 'in', name: cfg.name || 'طالب Study Now', avatar: '' };
+      drawAcct();
+      friends();
+      toast('تم تفعيل الأصحاب وحفظ الكود محلياً ✅');
+    }
+
+    async function initAcct(manual) {
+      if (cfg.localFriends) {
+        if (!cfg.code) cfg.code = genCode();
+        acct = { st: 'in', name: cfg.name || 'طالب Study Now', avatar: '' };
+        drawAcct();
+        if (!$('p6').classList.contains('hide')) friends();
+        return;
+      }
+      acct.st = 'load';
+      drawAcct();
+      db = null;
+      uid = null;
+      try {
+        if (!window.claude) throw 0;
+        const u = await claude.use('user'), d = await claude.use('db');
+        if (!u || !d) throw 0;
+        const id = await u.id();
+        if (!id) throw 0;
+        const me = await u.me();
+        acct = { st: 'in', name: me.name || '', avatar: me.avatarUrl };
+        const p = await d.doc('profiles/' + id).get();
+        if (p.exists) {
+          const x = p.data();
+          if (x.code) cfg.code = x.code;
+          if (!cfg.name && x.name) cfg.name = x.name;
+        }
+        if (!cfg.name && me.name) cfg.name = me.name.slice(0, 20);
+        if (!cfg.code) cfg.code = genCode();
+        save();
+        db = d;
+        uid = id;
+        sync(true);
+        if (manual) toast('تم تسجيل دخولك ✅');
+      } catch (e) {
+        acct = { st: 'out', name: '', avatar: '' };
+        db = null;
+        uid = null;
+        if (manual) toast('يمكنك استخدام زر «تفعيل الأصحاب محلياً الآن» فوراً');
+      }
+      drawAcct();
+      if (!$('p6').classList.contains('hide')) friends();
+    }
+
+    function doLogin() {
+      initAcct(true);
+    }
+
+    function friends() {
+      const ok = !!(cfg.localFriends || (db && uid && cfg.code));
+      $('fOff').classList.toggle('hide', ok);
+      $('fOn').classList.toggle('hide', !ok);
+      if (!ok) return;
+      if (!cfg.code) {
+        cfg.code = genCode();
+        save();
+      }
+      $('mycode').textContent = cfg.code;
+      $('nm').value = cfg.name;
+      sync(true);
+      loadF();
+    }
+
+    function setName(v) {
+      cfg.name = v.trim().slice(0, 20);
+      save();
+      sync(true);
+    }
+
+    function copyCode() {
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = cfg.code;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        ta.remove();
+        toast('تم نسخ الكود ✅');
+      } catch (e) {
+        toast('الكود: ' + cfg.code);
+      }
+    }
+
+    function shift(p) {
+      let w = (Array.isArray(p.week) ? p.week : []).slice(0, 7).map(x => Number(x) || 0);
+      while (w.length < 7) w.unshift(0);
+      const a = new Date(String(p.date) + 'T00:00:00'), b = new Date(key() + 'T00:00:00'), d = Math.round((b - a) / 864e5);
+      if (d > 0) {
+        const m = Math.min(d, 7);
+        w = w.slice(m).concat(Array(m).fill(0));
+      }
+      return w;
+    }
+
+    function card(p) {
+      const w = shift(p), c = el('div', 'fc'), h = el('div', 'fh');
+      h.append(el('b', 0, String(p.name || 'طالب')), el('small', 0, String(p.label || '')));
+      c.append(h);
+      const g = el('div', 'grid3'), k = (v, t) => {
+        const x = el('div', 'kpi');
+        x.append(el('b', 0, String(v)), el('span', 0, t));
+        g.append(x);
+      };
+      k(w[6], 'اليوم (د)');
+      k(w.reduce((a, b) => a + b, 0), 'الأسبوع (د)');
+      k(p.date === key() ? Number(p.sess) || 0 : 0, 'جلسات اليوم');
+      c.append(g);
+
+      const bs = el('div', 'bars'), mx = Math.max(60, ...w);
+      bs.style.marginTop = '12px';
+      for (let i = 0; i < 7; i++) {
+        const d = new Date();
+        d.setDate(d.getDate() - i);
+        const b = el('div', 'bar' + (i == 0 ? ' today' : '')), r = el('div');
+        r.style.height = w[6 - i] / mx * 100 + '%';
+        b.append(el('span', 0, String(w[6 - i])), r, el('span', 0, DAYS[d.getDay()]));
+        bs.append(b);
+      }
+      c.append(bs);
+
+      const sb = p.sub || {}, ms = Math.max(60, ...SUBJ.map(s => Number(sb[s.id]) || 0));
+      SUBJ.filter(s => Number(sb[s.id]) > 0).forEach(s => {
+        const r = el('div', 'row'), t = el('div', 't'), i = el('i'), v = Number(sb[s.id]);
+        i.style.width = v / ms * 100 + '%';
+        i.style.background = s.c;
+        t.append(i);
+        r.append(el('span', 0, s.e + ' ' + s.n), t, el('em', 0, hm(v)));
+        c.append(r);
+      });
+      return c;
+    }
+
+    async function loadF() {
+      const L = $('flist');
+      L.textContent = 'جاري التحميل...';
+      if (cfg.localFriends) {
+        const store = saveLocalProfileAndFriends(null);
+        const ids = (store.friends[cfg.code] || []).filter(id => id !== cfg.code);
+        L.textContent = '';
+        const ps = ids.map(id => store.profiles[id]).filter(Boolean);
+        if (!ps.length) {
+          L.textContent = 'أضف كود صاحبك بالأعلى لمتابعة إنجازه ومقارنته.';
+          return;
+        }
+        ps.forEach(p => L.append(card(p)));
+        return;
+      }
+
+      try {
+        const m = await db.doc('friends/' + uid).get(), ids = new Set((m.exists && m.data().list) || []);
+        const q = await db.collection('friends').where('list', 'array-contains', uid).get();
+        q.docs.forEach(d => ids.add(d.id));
+        ids.delete(uid);
+        const ds = await Promise.all([...ids].map(i => db.doc('profiles/' + i).get()));
+        L.textContent = '';
+        const ps = ds.filter(d => d.exists).map(d => d.data());
+        if (!ps.length) {
+          L.textContent = 'ما عندك أصحاب بعد. شارك كودك أو أضف كود صاحبك.';
+          return;
+        }
+        ps.forEach(p => L.append(card(p)));
+      } catch (e) {
+        L.textContent = 'تعذر التحميل، حاول مرة ثانية.';
+      }
+    }
+
+    async function addF() {
+      const c = $('fc').value.trim().toUpperCase();
+      if (!c) return;
+      if (cfg.localFriends) {
+        const ok = saveLocalProfileAndFriends(c);
+        if (ok) {
+          $('fc').value = '';
+          toast('تمت إضافة الصاحب ✅');
+          loadF();
+        }
+        return;
+      }
+
+      try {
+        const q = await db.collection('profiles').where('code', '==', c).get();
+        if (q.empty) {
+          toast('ما لقيت هذا الكود');
+          return;
+        }
+        const d = q.docs[0];
+        if (d.id === uid) {
+          toast('هذا كودك أنت 😄');
+          return;
+        }
+        const m = await db.doc('friends/' + uid).get(), l = (m.exists && m.data().list) || [];
+        if (!l.includes(d.id)) l.push(d.id);
+        await db.doc('friends/' + uid).set({ list: l });
+        $('fc').value = '';
+        toast('تمت الإضافة ✅');
+        loadF();
+      } catch (e) {
+        toast('تعذرت الإضافة');
+      }
+    }
+
+    function escapeHtml(str) {
+      return String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    // التهيئة الأولية عند فتح التطبيق
+    applyTheme();
+    renderPlatformSelects();
+    renderSubs();
+    setMode('focus');
+    renderLessons();
+    renderSchedule();
+    renderChat();
+    initAcct();
+    if (!cfg.grade) askGrade();
+  </script>
+
+</body></html>
